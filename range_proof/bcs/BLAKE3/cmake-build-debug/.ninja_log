@@ -1,0 +1,20 @@
+# ninja log v5
+0	710	1664700355831876090	CMakeFiles/debug.dir/debug.cpp.o	7cbae6df1807def6
+0	736	1664700355859904824	CMakeFiles/debug.dir/blake3.c.o	77907d4a003fe539
+3	46	1664700355159186482	CMakeFiles/debug.dir/blake3_sse2_x86-64_unix.S.o	b434feab9b18b5bd
+74	100	1664700234881938596	example	5e64e1b5a69b735a
+1	678	1664700355799843251	CMakeFiles/debug.dir/blake3_dispatch.c.o	2abb74fb1b19e1dc
+4	139	1664700355263293207	CMakeFiles/debug.dir/blake3_avx2_x86-64_unix.S.o	3a0eb40527dd0295
+905	964	1664700356088137378	debug	659954303b88b3ae
+3	905	1664700356028076786	CMakeFiles/debug.dir/blake3_portable.c.o	255d6474765c883d
+4	111	1664700355235264473	CMakeFiles/debug.dir/blake3_sse41_x86-64_unix.S.o	301889dde0b0ac5b
+6	140	1664700355263293207	CMakeFiles/debug.dir/blake3_avx512_x86-64_unix.S.o	9c7eb617a4af1899
+7	47	1664705681217405139	CMakeFiles/debug.dir/blake3_avx2_x86-64_unix.S.o	7e0abe1784655d1b
+3	53	1664705681225400950	CMakeFiles/debug.dir/blake3_sse2_x86-64_unix.S.o	2802e95bd58c1104
+4	56	1664705681225400950	CMakeFiles/debug.dir/blake3_sse41_x86-64_unix.S.o	3c12bcd26f97317b
+7	92	1664705681269377905	CMakeFiles/debug.dir/blake3_avx512_x86-64_unix.S.o	3be99ee70731a11c
+2	320	1664705681497258493	CMakeFiles/debug.dir/blake3_dispatch.c.o	feaf0b7b7a2c848
+1	357	1664705681533239639	CMakeFiles/debug.dir/blake3.c.o	d92daa15845e0c36
+1	365	1664705681541235449	CMakeFiles/debug.dir/debug.cpp.o	d944f43fb2b08bf7
+2	538	1664705681713145367	CMakeFiles/debug.dir/blake3_portable.c.o	5594ef71d3f33678
+538	581	1664705681757122322	debug	659954303b88b3ae
