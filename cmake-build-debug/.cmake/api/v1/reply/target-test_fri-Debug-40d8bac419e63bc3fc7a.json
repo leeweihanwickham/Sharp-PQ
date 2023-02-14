@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "range_proof/test_rangeproof_backup"
+			"path" : "range_proof/test_fri"
 		}
 	],
 	"backtrace" : 1,
@@ -12,6 +12,8 @@
 		[
 			"add_executable",
 			"target_link_libraries",
+			"cxx_library_with_type",
+			"cxx_library",
 			"add_definitions",
 			"INCLUDE_DIRECTORIES",
 			"include_directories"
@@ -20,6 +22,8 @@
 		[
 			"range_proof/CMakeLists.txt",
 			"depends/libff/libff/CMakeLists.txt",
+			"depends/gtest/googletest/CMakeLists.txt",
+			"depends/gtest/googletest/cmake/internal_utils.cmake",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
@@ -30,13 +34,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 83,
+				"line" : 43,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 91,
+				"line" : 51,
 				"parent" : 0
 			},
 			{
@@ -58,22 +62,49 @@
 				"file" : 2
 			},
 			{
-				"command" : 2,
+				"command" : 1,
 				"file" : 2,
-				"line" : 133,
+				"line" : 100,
 				"parent" : 6
 			},
 			{
 				"command" : 3,
 				"file" : 2,
-				"line" : 144,
+				"line" : 99,
 				"parent" : 6
 			},
 			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 184,
+				"parent" : 8
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 171,
+				"parent" : 9
+			},
+			{
+				"file" : 4
+			},
+			{
 				"command" : 4,
-				"file" : 2,
+				"file" : 4,
+				"line" : 133,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 144,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 4,
 				"line" : 158,
-				"parent" : 6
+				"parent" : 11
 			}
 		]
 	},
@@ -92,14 +123,14 @@
 			"defines" : 
 			[
 				{
-					"backtrace" : 7,
+					"backtrace" : 12,
 					"define" : "USE_ASM"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 9,
+					"backtrace" : 14,
 					"path" : "/home/leeweihan/Desktop/range proof/."
 				},
 				{
@@ -113,6 +144,11 @@
 				{
 					"backtrace" : 2,
 					"path" : "/home/leeweihan/Desktop/range proof/depends/libff/libff/.."
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/leeweihan/Desktop/range proof/depends/gtest/googletest/include"
 				}
 			],
 			"language" : "CXX",
@@ -139,14 +175,14 @@
 			"defines" : 
 			[
 				{
-					"backtrace" : 7,
+					"backtrace" : 12,
 					"define" : "USE_ASM"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 9,
+					"backtrace" : 14,
 					"path" : "/home/leeweihan/Desktop/range proof/."
 				},
 				{
@@ -160,6 +196,11 @@
 				{
 					"backtrace" : 2,
 					"path" : "/home/leeweihan/Desktop/range proof/depends/libff/libff/.."
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/leeweihan/Desktop/range proof/depends/gtest/googletest/include"
 				}
 			],
 			"language" : "C",
@@ -180,18 +221,18 @@
 			"defines" : 
 			[
 				{
-					"backtrace" : 7,
+					"backtrace" : 12,
 					"define" : "USE_ASM"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 8,
+					"backtrace" : 13,
 					"path" : "/usr/include"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 14,
 					"path" : "/home/leeweihan/Desktop/range proof/."
 				},
 				{
@@ -210,6 +251,11 @@
 					"backtrace" : 2,
 					"isSystem" : true,
 					"path" : "/usr/include/x86_64-linux-gnu"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/leeweihan/Desktop/range proof/depends/gtest/googletest/include"
 				}
 			],
 			"language" : "ASM",
@@ -230,6 +276,14 @@
 		},
 		{
 			"backtrace" : 2,
+			"id" : "gtest::@0c3220cfe2a2b3e269ce"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "gtest_main::@0c3220cfe2a2b3e269ce"
+		},
+		{
+			"backtrace" : 2,
 			"id" : "ff::@ad62b5c0e09ee7694c21"
 		},
 		{
@@ -237,7 +291,7 @@
 			"id" : "range_proof::@814f3a9e47666047d3e6"
 		}
 	],
-	"id" : "test_rangeproof_backup::@814f3a9e47666047d3e6",
+	"id" : "test_fri::@814f3a9e47666047d3e6",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -253,6 +307,11 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "range_proof/librange_proof.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "depends/gtest/googlemock/gtest/libgtest_maind.a",
 				"role" : "libraries"
 			},
 			{
@@ -278,12 +337,22 @@
 			{
 				"fragment" : "-lsodium",
 				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "depends/gtest/googlemock/gtest/libgtestd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "-pthread",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "test_rangeproof_backup",
-	"nameOnDisk" : "test_rangeproof_backup",
+	"name" : "test_fri",
+	"nameOnDisk" : "test_fri",
 	"paths" : 
 	{
 		"build" : "range_proof",
@@ -317,7 +386,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "range_proof/tests/test_rangeproof_backup.cpp",
+			"path" : "range_proof/tests/test_fri.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

@@ -44,7 +44,7 @@
 					"source" : "depends",
 					"targetIndexes" : 
 					[
-						17
+						16
 					]
 				},
 				{
@@ -214,8 +214,7 @@
 						12,
 						13,
 						14,
-						15,
-						16
+						15
 					]
 				}
 			],
@@ -246,8 +245,7 @@
 						13,
 						14,
 						15,
-						16,
-						17
+						16
 					]
 				},
 				{
@@ -416,7 +414,7 @@
 				{
 					"directoryIndex" : 11,
 					"id" : "test_fri::@814f3a9e47666047d3e6",
-					"jsonFile" : "target-test_fri-Debug-801f4e422d315cfd2791.json",
+					"jsonFile" : "target-test_fri-Debug-40d8bac419e63bc3fc7a.json",
 					"name" : "test_fri",
 					"projectIndex" : 0
 				},
@@ -439,13 +437,6 @@
 					"id" : "test_rangeproof_arbitrary::@814f3a9e47666047d3e6",
 					"jsonFile" : "target-test_rangeproof_arbitrary-Debug-e6b0e37d13b3faacf64b.json",
 					"name" : "test_rangeproof_arbitrary",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 11,
-					"id" : "test_rangeproof_backup::@814f3a9e47666047d3e6",
-					"jsonFile" : "target-test_rangeproof_backup-Debug-95b5190599b2d68e8cc3.json",
-					"name" : "test_rangeproof_backup",
 					"projectIndex" : 0
 				},
 				{
