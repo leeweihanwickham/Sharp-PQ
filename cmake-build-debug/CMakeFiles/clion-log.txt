@@ -23,7 +23,7 @@ CMake Deprecation Warning at depends/gtest/googletest/CMakeLists.txt:53 (cmake_m
   CMake that the project does not need compatibility with older versions.
 
 
--- git Version: v0.0.0
+-- git Version: v0.0.0-dirty
 -- Version: 0.0.0
 -- Performing Test HAVE_STD_REGEX
 -- Performing Test HAVE_STD_REGEX

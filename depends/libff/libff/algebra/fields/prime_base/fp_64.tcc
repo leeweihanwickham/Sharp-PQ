@@ -3,7 +3,7 @@
 field for p = 2^^64 - 2^^32 + 1
  This file is part of "A Succinct and Efficient Range Proof with More Functionalities based on Interactive Oracle Proof"
 *****************************************************************************
-* @author   Weihan Li
+* @author   Qihang Peng, Weihan Li
 *****************************************************************************/
 
 #ifndef RANGEPROOF_FP_64_TCC
@@ -22,6 +22,8 @@ static __uint128_t Low = ((__uint128_t)(1) << 64) - 1;
 static __int128 gcdm,gcdn,gcdt;
 static constexpr unsigned long long modulus = 18446744069414584321ull;
 namespace libff{
+
+    //TODO: feima xiaodingli a^{p-2} = a ^{-1}
     inline void Exgcd(unsigned long long a, unsigned long long b, __int128 &Xgcd, __int128 &Ygcd) {
         gcdm = 0, gcdn = 1;
         Xgcd=1, Ygcd=0;
@@ -102,12 +104,13 @@ namespace libff{
         return ret;
     }
 
+    // change on 230210
     Fp_64 Fp_64::operator - (const Fp_64 &b) const
     {
         Fp_64 ret;
         unsigned long long result = this->real - b.real;
         if(b.real > this->real) result += modulus;
-        result = result % modulus;
+        if (result >= modulus)  result -= modulus;
         ret.real = result;
         ret.mont_repr.data[0] = ret.real;
         return ret;

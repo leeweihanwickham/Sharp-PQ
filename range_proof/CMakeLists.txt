@@ -47,7 +47,7 @@ add_executable(test_fri tests/test_fri.cpp
         bcs/BLAKE3/blake3_sse2_x86-64_unix.S
         bcs/BLAKE3/blake3_sse41_x86-64_unix.S
         bcs/BLAKE3/blake3_avx2_x86-64_unix.S
-        bcs/BLAKE3/blake3_avx512_x86-64_unix.S)
+        bcs/BLAKE3/blake3_avx512_x86-64_unix.S tests/test_rangeproof_backup.cpp)
 target_link_libraries(test_fri range_proof gtest_main)
 
 add_executable(test_rangeproof tests/test_rangeproof.cpp
@@ -79,5 +79,15 @@ add_executable(test_rangeproof_arbitrary tests/test_rangeproof_arbitrary.cpp
         bcs/BLAKE3/blake3_avx2_x86-64_unix.S
         bcs/BLAKE3/blake3_avx512_x86-64_unix.S)
 target_link_libraries(test_rangeproof_arbitrary range_proof)
+
+add_executable(test_rangeproof_backup tests/test_rangeproof_backup.cpp
+        bcs/BLAKE3/blake3.c
+        bcs/BLAKE3/blake3_dispatch.c
+        bcs/BLAKE3/blake3_portable.c
+        bcs/BLAKE3/blake3_sse2_x86-64_unix.S
+        bcs/BLAKE3/blake3_sse41_x86-64_unix.S
+        bcs/BLAKE3/blake3_avx2_x86-64_unix.S
+        bcs/BLAKE3/blake3_avx512_x86-64_unix.S)
+target_link_libraries(test_rangeproof_backup range_proof)
 
 ENABLE_LANGUAGE(ASM)

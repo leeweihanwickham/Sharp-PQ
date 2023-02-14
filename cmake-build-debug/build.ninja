@@ -2003,6 +2003,14 @@ build range_proof/CMakeFiles/test_fri.dir/bcs/BLAKE3/blake3_avx512_x86-64_unix.S
   OBJECT_DIR = range_proof/CMakeFiles/test_fri.dir
   OBJECT_FILE_DIR = range_proof/CMakeFiles/test_fri.dir/bcs/BLAKE3
 
+build range_proof/CMakeFiles/test_fri.dir/tests/test_rangeproof_backup.cpp.o: CXX_COMPILER__test_fri_Debug /home/leeweihan/Desktop/range$ proof/range_proof/tests/test_rangeproof_backup.cpp || cmake_object_order_depends_target_test_fri
+  DEFINES = -DUSE_ASM
+  DEP_FILE = range_proof/CMakeFiles/test_fri.dir/tests/test_rangeproof_backup.cpp.o.d
+  FLAGS = -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -g -std=gnu++14
+  INCLUDES = -I"/home/leeweihan/Desktop/range proof/." -I"/home/leeweihan/Desktop/range proof/range_proof/../depends/libfqfft" -I"/home/leeweihan/Desktop/range proof/range_proof/../depends/libff" -I"/home/leeweihan/Desktop/range proof/depends/libff/libff/.." -isystem "/home/leeweihan/Desktop/range proof/depends/gtest/googletest/include"
+  OBJECT_DIR = range_proof/CMakeFiles/test_fri.dir
+  OBJECT_FILE_DIR = range_proof/CMakeFiles/test_fri.dir/tests
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target test_fri
@@ -2011,7 +2019,7 @@ build range_proof/CMakeFiles/test_fri.dir/bcs/BLAKE3/blake3_avx512_x86-64_unix.S
 #############################################
 # Link the executable range_proof/test_fri
 
-build range_proof/test_fri: CXX_EXECUTABLE_LINKER__test_fri_Debug range_proof/CMakeFiles/test_fri.dir/tests/test_fri.cpp.o range_proof/CMakeFiles/test_fri.dir/bcs/BLAKE3/blake3.c.o range_proof/CMakeFiles/test_fri.dir/bcs/BLAKE3/blake3_dispatch.c.o range_proof/CMakeFiles/test_fri.dir/bcs/BLAKE3/blake3_portable.c.o range_proof/CMakeFiles/test_fri.dir/bcs/BLAKE3/blake3_sse2_x86-64_unix.S.o range_proof/CMakeFiles/test_fri.dir/bcs/BLAKE3/blake3_sse41_x86-64_unix.S.o range_proof/CMakeFiles/test_fri.dir/bcs/BLAKE3/blake3_avx2_x86-64_unix.S.o range_proof/CMakeFiles/test_fri.dir/bcs/BLAKE3/blake3_avx512_x86-64_unix.S.o | range_proof/librange_proof.a depends/gtest/googlemock/gtest/libgtest_maind.a depends/libff/libff/libff.a /usr/lib/x86_64-linux-gnu/libgmp.so depends/libzm.a /usr/lib/x86_64-linux-gnu/libsodium.so depends/gtest/googlemock/gtest/libgtestd.a || depends/gtest/googlemock/gtest/libgtest_maind.a depends/gtest/googlemock/gtest/libgtestd.a depends/libff/libff/libff.a depends/libzm.a range_proof/librange_proof.a
+build range_proof/test_fri: CXX_EXECUTABLE_LINKER__test_fri_Debug range_proof/CMakeFiles/test_fri.dir/tests/test_fri.cpp.o range_proof/CMakeFiles/test_fri.dir/bcs/BLAKE3/blake3.c.o range_proof/CMakeFiles/test_fri.dir/bcs/BLAKE3/blake3_dispatch.c.o range_proof/CMakeFiles/test_fri.dir/bcs/BLAKE3/blake3_portable.c.o range_proof/CMakeFiles/test_fri.dir/bcs/BLAKE3/blake3_sse2_x86-64_unix.S.o range_proof/CMakeFiles/test_fri.dir/bcs/BLAKE3/blake3_sse41_x86-64_unix.S.o range_proof/CMakeFiles/test_fri.dir/bcs/BLAKE3/blake3_avx2_x86-64_unix.S.o range_proof/CMakeFiles/test_fri.dir/bcs/BLAKE3/blake3_avx512_x86-64_unix.S.o range_proof/CMakeFiles/test_fri.dir/tests/test_rangeproof_backup.cpp.o | range_proof/librange_proof.a depends/gtest/googlemock/gtest/libgtest_maind.a depends/libff/libff/libff.a /usr/lib/x86_64-linux-gnu/libgmp.so depends/libzm.a /usr/lib/x86_64-linux-gnu/libsodium.so depends/gtest/googlemock/gtest/libgtestd.a || depends/gtest/googlemock/gtest/libgtest_maind.a depends/gtest/googlemock/gtest/libgtestd.a depends/libff/libff/libff.a depends/libzm.a range_proof/librange_proof.a
   FLAGS = -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -g
   LINK_FLAGS = -rdynamic
   LINK_LIBRARIES = range_proof/librange_proof.a  depends/gtest/googlemock/gtest/libgtest_maind.a  -lsodium  depends/libff/libff/libff.a  /usr/lib/x86_64-linux-gnu/libgmp.so  depends/libzm.a  -lsodium  depends/gtest/googlemock/gtest/libgtestd.a  -pthread
@@ -2294,6 +2302,97 @@ build range_proof/test_rangeproof_arbitrary: CXX_EXECUTABLE_LINKER__test_rangepr
   TARGET_FILE = range_proof/test_rangeproof_arbitrary
   TARGET_PDB = test_rangeproof_arbitrary.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target test_rangeproof_backup
+
+
+#############################################
+# Order-only phony target for test_rangeproof_backup
+
+build cmake_object_order_depends_target_test_rangeproof_backup: phony || cmake_object_order_depends_target_ff cmake_object_order_depends_target_range_proof cmake_object_order_depends_target_zm
+
+build range_proof/CMakeFiles/test_rangeproof_backup.dir/tests/test_rangeproof_backup.cpp.o: CXX_COMPILER__test_rangeproof_backup_Debug /home/leeweihan/Desktop/range$ proof/range_proof/tests/test_rangeproof_backup.cpp || cmake_object_order_depends_target_test_rangeproof_backup
+  DEFINES = -DUSE_ASM
+  DEP_FILE = range_proof/CMakeFiles/test_rangeproof_backup.dir/tests/test_rangeproof_backup.cpp.o.d
+  FLAGS = -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -g -std=gnu++14
+  INCLUDES = -I"/home/leeweihan/Desktop/range proof/." -I"/home/leeweihan/Desktop/range proof/range_proof/../depends/libfqfft" -I"/home/leeweihan/Desktop/range proof/range_proof/../depends/libff" -I"/home/leeweihan/Desktop/range proof/depends/libff/libff/.."
+  OBJECT_DIR = range_proof/CMakeFiles/test_rangeproof_backup.dir
+  OBJECT_FILE_DIR = range_proof/CMakeFiles/test_rangeproof_backup.dir/tests
+
+build range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3/blake3.c.o: C_COMPILER__test_rangeproof_backup_Debug /home/leeweihan/Desktop/range$ proof/range_proof/bcs/BLAKE3/blake3.c || cmake_object_order_depends_target_test_rangeproof_backup
+  DEFINES = -DUSE_ASM
+  DEP_FILE = range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3/blake3.c.o.d
+  FLAGS = -g
+  INCLUDES = -I"/home/leeweihan/Desktop/range proof/." -I"/home/leeweihan/Desktop/range proof/range_proof/../depends/libfqfft" -I"/home/leeweihan/Desktop/range proof/range_proof/../depends/libff" -I"/home/leeweihan/Desktop/range proof/depends/libff/libff/.."
+  OBJECT_DIR = range_proof/CMakeFiles/test_rangeproof_backup.dir
+  OBJECT_FILE_DIR = range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3
+
+build range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3/blake3_dispatch.c.o: C_COMPILER__test_rangeproof_backup_Debug /home/leeweihan/Desktop/range$ proof/range_proof/bcs/BLAKE3/blake3_dispatch.c || cmake_object_order_depends_target_test_rangeproof_backup
+  DEFINES = -DUSE_ASM
+  DEP_FILE = range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3/blake3_dispatch.c.o.d
+  FLAGS = -g
+  INCLUDES = -I"/home/leeweihan/Desktop/range proof/." -I"/home/leeweihan/Desktop/range proof/range_proof/../depends/libfqfft" -I"/home/leeweihan/Desktop/range proof/range_proof/../depends/libff" -I"/home/leeweihan/Desktop/range proof/depends/libff/libff/.."
+  OBJECT_DIR = range_proof/CMakeFiles/test_rangeproof_backup.dir
+  OBJECT_FILE_DIR = range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3
+
+build range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3/blake3_portable.c.o: C_COMPILER__test_rangeproof_backup_Debug /home/leeweihan/Desktop/range$ proof/range_proof/bcs/BLAKE3/blake3_portable.c || cmake_object_order_depends_target_test_rangeproof_backup
+  DEFINES = -DUSE_ASM
+  DEP_FILE = range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3/blake3_portable.c.o.d
+  FLAGS = -g
+  INCLUDES = -I"/home/leeweihan/Desktop/range proof/." -I"/home/leeweihan/Desktop/range proof/range_proof/../depends/libfqfft" -I"/home/leeweihan/Desktop/range proof/range_proof/../depends/libff" -I"/home/leeweihan/Desktop/range proof/depends/libff/libff/.."
+  OBJECT_DIR = range_proof/CMakeFiles/test_rangeproof_backup.dir
+  OBJECT_FILE_DIR = range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3
+
+build range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3/blake3_sse2_x86-64_unix.S.o: ASM_COMPILER__test_rangeproof_backup_Debug /home/leeweihan/Desktop/range$ proof/range_proof/bcs/BLAKE3/blake3_sse2_x86-64_unix.S || cmake_object_order_depends_target_test_rangeproof_backup
+  DEFINES = -DUSE_ASM
+  DEP_FILE = range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3/blake3_sse2_x86-64_unix.S.o.d
+  FLAGS = -g
+  INCLUDES = -I/usr/include -I"/home/leeweihan/Desktop/range proof/." -I"/home/leeweihan/Desktop/range proof/range_proof/../depends/libfqfft" -I"/home/leeweihan/Desktop/range proof/range_proof/../depends/libff" -I"/home/leeweihan/Desktop/range proof/depends/libff/libff/.." -isystem /usr/include/x86_64-linux-gnu
+  OBJECT_DIR = range_proof/CMakeFiles/test_rangeproof_backup.dir
+  OBJECT_FILE_DIR = range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3
+
+build range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3/blake3_sse41_x86-64_unix.S.o: ASM_COMPILER__test_rangeproof_backup_Debug /home/leeweihan/Desktop/range$ proof/range_proof/bcs/BLAKE3/blake3_sse41_x86-64_unix.S || cmake_object_order_depends_target_test_rangeproof_backup
+  DEFINES = -DUSE_ASM
+  DEP_FILE = range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3/blake3_sse41_x86-64_unix.S.o.d
+  FLAGS = -g
+  INCLUDES = -I/usr/include -I"/home/leeweihan/Desktop/range proof/." -I"/home/leeweihan/Desktop/range proof/range_proof/../depends/libfqfft" -I"/home/leeweihan/Desktop/range proof/range_proof/../depends/libff" -I"/home/leeweihan/Desktop/range proof/depends/libff/libff/.." -isystem /usr/include/x86_64-linux-gnu
+  OBJECT_DIR = range_proof/CMakeFiles/test_rangeproof_backup.dir
+  OBJECT_FILE_DIR = range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3
+
+build range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3/blake3_avx2_x86-64_unix.S.o: ASM_COMPILER__test_rangeproof_backup_Debug /home/leeweihan/Desktop/range$ proof/range_proof/bcs/BLAKE3/blake3_avx2_x86-64_unix.S || cmake_object_order_depends_target_test_rangeproof_backup
+  DEFINES = -DUSE_ASM
+  DEP_FILE = range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3/blake3_avx2_x86-64_unix.S.o.d
+  FLAGS = -g
+  INCLUDES = -I/usr/include -I"/home/leeweihan/Desktop/range proof/." -I"/home/leeweihan/Desktop/range proof/range_proof/../depends/libfqfft" -I"/home/leeweihan/Desktop/range proof/range_proof/../depends/libff" -I"/home/leeweihan/Desktop/range proof/depends/libff/libff/.." -isystem /usr/include/x86_64-linux-gnu
+  OBJECT_DIR = range_proof/CMakeFiles/test_rangeproof_backup.dir
+  OBJECT_FILE_DIR = range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3
+
+build range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3/blake3_avx512_x86-64_unix.S.o: ASM_COMPILER__test_rangeproof_backup_Debug /home/leeweihan/Desktop/range$ proof/range_proof/bcs/BLAKE3/blake3_avx512_x86-64_unix.S || cmake_object_order_depends_target_test_rangeproof_backup
+  DEFINES = -DUSE_ASM
+  DEP_FILE = range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3/blake3_avx512_x86-64_unix.S.o.d
+  FLAGS = -g
+  INCLUDES = -I/usr/include -I"/home/leeweihan/Desktop/range proof/." -I"/home/leeweihan/Desktop/range proof/range_proof/../depends/libfqfft" -I"/home/leeweihan/Desktop/range proof/range_proof/../depends/libff" -I"/home/leeweihan/Desktop/range proof/depends/libff/libff/.." -isystem /usr/include/x86_64-linux-gnu
+  OBJECT_DIR = range_proof/CMakeFiles/test_rangeproof_backup.dir
+  OBJECT_FILE_DIR = range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_rangeproof_backup
+
+
+#############################################
+# Link the executable range_proof/test_rangeproof_backup
+
+build range_proof/test_rangeproof_backup: CXX_EXECUTABLE_LINKER__test_rangeproof_backup_Debug range_proof/CMakeFiles/test_rangeproof_backup.dir/tests/test_rangeproof_backup.cpp.o range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3/blake3.c.o range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3/blake3_dispatch.c.o range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3/blake3_portable.c.o range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3/blake3_sse2_x86-64_unix.S.o range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3/blake3_sse41_x86-64_unix.S.o range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3/blake3_avx2_x86-64_unix.S.o range_proof/CMakeFiles/test_rangeproof_backup.dir/bcs/BLAKE3/blake3_avx512_x86-64_unix.S.o | range_proof/librange_proof.a depends/libff/libff/libff.a /usr/lib/x86_64-linux-gnu/libgmp.so depends/libzm.a /usr/lib/x86_64-linux-gnu/libsodium.so || depends/libff/libff/libff.a depends/libzm.a range_proof/librange_proof.a
+  FLAGS = -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -g
+  LINK_FLAGS = -rdynamic
+  LINK_LIBRARIES = range_proof/librange_proof.a  -lsodium  depends/libff/libff/libff.a  /usr/lib/x86_64-linux-gnu/libgmp.so  depends/libzm.a  -lsodium
+  OBJECT_DIR = range_proof/CMakeFiles/test_rangeproof_backup.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = range_proof/test_rangeproof_backup
+  TARGET_PDB = test_rangeproof_backup.dbg
+
 
 #############################################
 # Utility command for test
@@ -2419,6 +2518,8 @@ build test_rangeproof: phony range_proof/test_rangeproof
 
 build test_rangeproof_arbitrary: phony range_proof/test_rangeproof_arbitrary
 
+build test_rangeproof_backup: phony range_proof/test_rangeproof_backup
+
 build test_rangeproof_proveable: phony range_proof/test_rangeproof_proveable
 
 build zm: phony depends/libzm.a
@@ -2508,7 +2609,7 @@ build depends/libfqfft/tutorials/all: phony
 #############################################
 # Folder: /home/leeweihan/Desktop/range proof/cmake-build-debug/range_proof
 
-build range_proof/all: phony range_proof/librange_proof.a range_proof/test_merkleTree range_proof/test_fri range_proof/test_rangeproof range_proof/test_rangeproof_proveable range_proof/test_rangeproof_arbitrary
+build range_proof/all: phony range_proof/librange_proof.a range_proof/test_merkleTree range_proof/test_fri range_proof/test_rangeproof range_proof/test_rangeproof_proveable range_proof/test_rangeproof_arbitrary range_proof/test_rangeproof_backup
 
 # =============================================================================
 # Unknown Build Time Dependencies.

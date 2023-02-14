@@ -26,7 +26,7 @@ int main(){
 
     typedef libff::Fields_64 FieldT;
 
-    const std::size_t repeat_num = 100;
+    const std::size_t repeat_num = 10;
 
     // common parameters
     // N
@@ -34,11 +34,11 @@ int main(){
     const std::size_t range = 1ull << range_dim;
     // for implemention we set the base as 2
     const std::size_t base = 2;
-    const std::size_t instance = 1;
+    const std::size_t instance = 1024;
     // rho
-    const std::size_t RS_extra_dimension = 3;
+    const std::size_t RS_extra_dimension = 4;
     // eta
-    std::vector<std::size_t> localization_parameter_array({3,3});
+    std::vector<std::size_t> localization_parameter_array({1,2});
     // lambda
     const std::size_t security_parameter = 120;
     // |F|
@@ -92,7 +92,7 @@ int main(){
     field_subset<FieldT> summation_domain(range);
     field_subset<FieldT> codeword_domain(FRI_degree_bound << RS_extra_dimension , FieldT(FRI_degree_bound<< RS_extra_dimension));
     // every instance will have two pairs of polynomials,
-    std::size_t poly_number = instance * 2 * challenge_vector_number;
+    std::size_t poly_number = instance * challenge_vector_number;
 
      printf("\nRange proof parameters\n");
     libff::print_indent(); printf("* target security parameter = %zu\n", security_parameter);
@@ -106,7 +106,6 @@ int main(){
     libff::print_indent(); printf("* FRI query repetitions = %zu\n", query_repetition_parameter);
     libff::print_indent(); printf("* summation degree bound = %zu\n", sum_degree_bound);
     libff::print_indent(); printf("* FRI degree bound = %zu\n", FRI_degree_bound);
-
 
     libff::leave_block("Configure parameters and generate witness");
 
@@ -133,7 +132,6 @@ int main(){
             }
         }
 
-
         /** Range Proof Prover **/
 
         libff::enter_block("Range proof prover");
@@ -147,14 +145,19 @@ int main(){
          * here we take challenge_vector_number = 2 as an example
          * we arrange according to the following order:
          * binary_poly_1 - challenge_vector_1_poly_1
-         * location_poly_1 - challenge_vector_1_poly_2
+         *
          * binary_poly_1 - challenge_vector_2_poly_1
-         * location_poly_1 - challenge_vector_2_poly_2
+         *
          * binary_poly_2 - challenge_vector_1_poly_1
-         * location_poly_2 - challenge_vector_1_poly_2
+         *
          * binary_poly_2 - challenge_vector_2_poly_1
-         * location_poly_2 - challenge_vector_2_poly_2
+         *
          * ... **/
+
+        /**
+         * 230210: find that it is unnecessary to use location_poly even m > n
+         * as we implement on a prime field
+         * **/
 
         // constant polynomial
         vanishing_polynomial<FieldT> vanishing_polynomial(summation_domain);
@@ -169,35 +172,29 @@ int main(){
         std::vector<std::vector<FieldT>> secret_vector_only_evaluations;
         secret_vector_only_evaluations.resize(instance);
 
-        for (std::size_t i = 0; i < 2 * instance * challenge_vector_number; i += (2 * challenge_vector_number)) {
-            for (std::size_t j = 0; j < 2 * challenge_vector_number; j += 2) {
+        for (std::size_t i = 0; i < instance * challenge_vector_number; i += (challenge_vector_number)) {
+            for (std::size_t j = 0; j < challenge_vector_number; j ++) {
                 if (j == 0) {
                     polynomial<FieldT> secret_poly = polynomial<FieldT>(
-                            IFFT_over_field_subset(secret_vectors[i / (2 * challenge_vector_number)],
+                            IFFT_over_field_subset(secret_vectors[i / (challenge_vector_number)],
                                                    summation_domain));
                     std::vector<FieldT> constant_vec(1, FieldT::one());
                     polynomial<FieldT> secret_poly_1 = secret_poly - polynomial<FieldT>(std::move(constant_vec));
 
-                    secret_vector_only_evaluations[i / (2 * challenge_vector_number)] = FFT_over_field_subset(
+                    secret_vector_only_evaluations[i / (challenge_vector_number)] = FFT_over_field_subset(
                             secret_poly.coefficients(), codeword_domain);
 
                     // random masking polynomial
                     polynomial<FieldT> random_poly = polynomial<FieldT>::random_polynomial(query_repetition_parameter);
                     polynomial<FieldT> binary_poly =
                             secret_poly.multiply(secret_poly_1) + vanishing_polynomial * random_poly;
-                    polynomial<FieldT> location_poly = secret_poly + vanishing_polynomial * random_poly;
 
                     IPA_sec_polys[i + j] = binary_poly;
                     IPA_sec_evaluations[i + j] = FFT_over_field_subset(IPA_sec_polys[i + j].coefficients(),
                                                                        codeword_domain);
-                    IPA_sec_polys[i + j + 1] = location_poly;
-                    IPA_sec_evaluations[i + j + 1] = FFT_over_field_subset(IPA_sec_polys[i + j + 1].coefficients(),
-                                                                           codeword_domain);
                 } else {
                     IPA_sec_polys[i + j] = IPA_sec_polys[i];
                     IPA_sec_evaluations[i + j] = IPA_sec_evaluations[i];
-                    IPA_sec_polys[i + j + 1] = IPA_sec_polys[i + 1];
-                    IPA_sec_evaluations[i + j + 1] = IPA_sec_evaluations[i + 1];
                 }
             }
         }
@@ -210,13 +207,13 @@ int main(){
          * here we take challenge_vector_number = 2 as an example
          * we arrange according to the following order:
          * binary_poly_1 - challenge_vector_1_poly_1
-         * location_poly_1 - challenge_vector_1_poly_2
+         *
          * binary_poly_1 - challenge_vector_2_poly_1
-         * location_poly_1 - challenge_vector_2_poly_2
+         *
          * binary_poly_2 - challenge_vector_1_poly_1
-         * location_poly_2 - challenge_vector_1_poly_2
+         *
          * binary_poly_2 - challenge_vector_2_poly_1
-         * location_poly_2 - challenge_vector_2_poly_2
+         *
          * ...
          *
          * For public polys, there are also two kinds,
@@ -254,18 +251,10 @@ int main(){
         std::vector<std::vector<FieldT>> IPA_pub_evaluations;
         IPA_pub_evaluations.resize(poly_number);
 
-        std::vector<FieldT> constant_vec_pub(1, FieldT::zero());
-        polynomial<FieldT> constant_vec_poly = polynomial<FieldT>(std::move(constant_vec_pub));
-        std::vector<FieldT> constant_vec_poly_eva = FFT_over_field_subset(constant_vec_poly.coefficients(),
-                                                                          codeword_domain);
+        for (std::size_t i = 0; i < (poly_number); i ++) {
+            IPA_pub_polys[i] = public_polys[(i) % challenge_vector_number];
+            IPA_pub_evaluations[i] = public_poly_evaluations[(i) % challenge_vector_number];
 
-        for (std::size_t i = 0; i < (poly_number); i += 2) {
-            IPA_pub_polys[i] = public_polys[(i / 2) % challenge_vector_number];
-            IPA_pub_evaluations[i] = public_poly_evaluations[(i / 2) % challenge_vector_number];
-
-            std::vector<FieldT> constant_vec_pub(1, FieldT::zero());
-            IPA_pub_polys[i + 1] = constant_vec_poly;
-            IPA_pub_evaluations[i + 1] = constant_vec_poly_eva;
         }
 
         /** generate \gamma(x), it equals to add a secret poly \gamma(x) and a public poly 1 **/
@@ -406,7 +395,6 @@ int main(){
 
         libff::leave_block("Setting parameters");
 
-
         libff::enter_block("Setting inner product verifier");
 
         std::shared_ptr<Inner_product_verifier<FieldT>> IPA_verifier_;
@@ -516,18 +504,19 @@ int main(){
     }
 
     std::cout<<"protocol run correctly!"<<std::endl;
-    std::cout<<"prover time is "<<std::endl;
-    std::cout<<prover_time/repeat_num<<" s"<<std::endl;
-    std::cout<<"verifier time is "<<std::endl;
-    std::cout<<(verifier_time+pubpoly_time)/repeat_num<<" s"<<std::endl;
-    std::cout<<"pubpoly time is "<<std::endl;
-    std::cout<<pubpoly_time/repeat_num<<" s"<<std::endl;
-    std::cout << "proof size hahs is " <<std::endl;
-    std::cout << total_proof_size_hash/repeat_num << std::endl;
-    std::cout << "proof size field is " <<std::endl;
-    std::cout << total_proof_size_field/repeat_num << std::endl;
-    std::cout << "total proof size is " << std::endl;
-    std::cout << (total_proof_size_hash+ total_proof_size_field)/repeat_num << std::endl;
+    std::cout<<"prover time, pubpoly time, verifier time, proof size field, proof size hash is "<<std::endl;
+    std::cout<< prover_time/repeat_num<< '\t' << pubpoly_time/repeat_num << '\t' << (verifier_time+pubpoly_time)/repeat_num << '\t'
+    << total_proof_size_field/repeat_num << '\t' << total_proof_size_hash/repeat_num << '\t' << (total_proof_size_hash+ total_proof_size_field)/repeat_num << std::endl;
+//    std::cout<<"verifier time is "<<std::endl;
+//    std::cout<<(verifier_time+pubpoly_time)/repeat_num<<" s"<<std::endl;
+//    std::cout<<"pubpoly time is "<<std::endl;
+//    std::cout<<pubpoly_time/repeat_num<<" s"<<std::endl;
+//    std::cout << "proof size hash is " <<std::endl;
+//    std::cout << total_proof_size_hash/repeat_num << std::endl;
+//    std::cout << "proof size field is " <<std::endl;
+//    std::cout << total_proof_size_field/repeat_num << std::endl;
+//    std::cout << "total proof size is " << std::endl;
+//    std::cout << (total_proof_size_hash+ total_proof_size_field)/repeat_num << std::endl;
 }
 
 

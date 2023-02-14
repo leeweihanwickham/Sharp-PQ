@@ -71,19 +71,19 @@ int main(){
 
     typedef libff::Fields_64 FieldT;
 
-    const std::size_t repeat_num = 200;
+    const std::size_t repeat_num = 100;
 
     // common parameters
     // N
-    const std::size_t range_dim = 11;
+    const std::size_t range_dim = 7;
     const std::size_t range = 1ull << range_dim;
     // for implemention we set the base as 2
     const std::size_t base = 2;
-    const std::size_t instance = 1;
+    const std::size_t instance = 256;
     // rho
-    const std::size_t RS_extra_dimension = 3;
+    const std::size_t RS_extra_dimension = 4;
     // eta
-    std::vector<std::size_t> localization_parameter_array({2,3});
+    std::vector<std::size_t> localization_parameter_array({1,2});
     // lambda
     const std::size_t security_parameter = 120;
     // |F|
@@ -230,14 +230,14 @@ int main(){
         * binary constraint v
         * binary constraint c
         * binary constraint d
-        * location constraint c
-        * location constraint d
+        * location constraint c; no need now
+        * location constraint d; no need now
         * equation constraint v - a -c = 0
         * equation constraint v - b + 2^n - d = 0  **/
 
         /** Generate random secret vectors **/
 
-        std::size_t poly_number = instance * 5 * challenge_vector_number + 2 * instance;
+        std::size_t poly_number = instance * 3 * challenge_vector_number + 2 * instance;
 
         /** Range Proof Prover **/
 
@@ -339,11 +339,11 @@ int main(){
         }
         //std::cout<< "IPA_sec_polys.size() is " << IPA_sec_polys.size() << std::endl;
 
-        for (std::size_t i = 0; i < challenge_vector_number; i ++)
-        {
-            IPA_sec_polys.insert(IPA_sec_polys.end(),c_polys_loc.begin(),c_polys_loc.end());
-            IPA_sec_evaluations.insert(IPA_sec_evaluations.end(),c_polys_loc_evas.begin(),c_polys_loc_evas.end());
-        }
+//        for (std::size_t i = 0; i < challenge_vector_number; i ++)
+//        {
+//            IPA_sec_polys.insert(IPA_sec_polys.end(),c_polys_loc.begin(),c_polys_loc.end());
+//            IPA_sec_evaluations.insert(IPA_sec_evaluations.end(),c_polys_loc_evas.begin(),c_polys_loc_evas.end());
+//        }
         //std::cout<< "IPA_sec_polys.size() is " << IPA_sec_polys.size() << std::endl;
 
         /** Initial d secret polynomials
@@ -389,11 +389,11 @@ int main(){
         }
         //std::cout<< "IPA_sec_polys.size() is " << IPA_sec_polys.size() << std::endl;
 
-        for (std::size_t i = 0; i < challenge_vector_number; i ++)
-        {
-            IPA_sec_polys.insert(IPA_sec_polys.end(),d_polys_loc.begin(),d_polys_loc.end());
-            IPA_sec_evaluations.insert(IPA_sec_evaluations.end(),d_polys_loc_evas.begin(),d_polys_loc_evas.end());
-        }
+//        for (std::size_t i = 0; i < challenge_vector_number; i ++)
+//        {
+//            IPA_sec_polys.insert(IPA_sec_polys.end(),d_polys_loc.begin(),d_polys_loc.end());
+//            IPA_sec_evaluations.insert(IPA_sec_evaluations.end(),d_polys_loc_evas.begin(),d_polys_loc_evas.end());
+//        }
         //std::cout<< "IPA_sec_polys.size() is " << IPA_sec_polys.size() << std::endl;
 
         /** Initial 0 secret polynomials
@@ -433,20 +433,13 @@ int main(){
             * c1(c1-1)-challenge_vector_1
             * c2(c2-1)-challenge_vector_1
             * c1(c1-1)-challenge_vector_2
-            * c2(c2-1)-challenge_vector_2
-            * c1 - 0
-            * c2 - 0
-            * c1 - 0
-            * c2 - 0**/
+            * c2(c2-1)-challenge_vector_2**/
         /** Initial d secret polynomials
          * d1(d1-1)-challenge_vector_1
          * d2(d2-1)-challenge_vector_1
          * d1(d1-1)-challenge_vector_2
          * d2(d2-1)-challenge_vector_2
-         * d1 - 0
-         * d2 - 0
-         * d1 - 0
-         * d2 - 0**/
+         **/
         /** Initial 0 secret polynomials
         * v1 - a1 - c1 - challenge_vector
         * v2 - a2 - c2 - challenge_vector
@@ -503,12 +496,12 @@ int main(){
         {
             IPA_pub_polys.insert(IPA_pub_polys.end(),instance,public_polys[j]);
         }
-        IPA_pub_polys.insert(IPA_pub_polys.end(),instance*challenge_vector_number,zero_poly);
+        //IPA_pub_polys.insert(IPA_pub_polys.end(),instance*challenge_vector_number,zero_poly);
         for (std::size_t j = 0; j < challenge_vector_number; j ++)
         {
             IPA_pub_polys.insert(IPA_pub_polys.end(),instance,public_polys[j]);
         }
-        IPA_pub_polys.insert(IPA_pub_polys.end(),instance*challenge_vector_number,zero_poly);
+        //IPA_pub_polys.insert(IPA_pub_polys.end(),instance*challenge_vector_number,zero_poly);
         IPA_pub_polys.insert(IPA_pub_polys.end(),instance*2,bin_rep_poly);
 
         for (std::size_t j = 0; j < challenge_vector_number; j ++)
@@ -519,12 +512,12 @@ int main(){
         {
             IPA_pub_evaluations.insert(IPA_pub_evaluations.end(),instance,public_poly_evaluations[j]);
         }
-        IPA_pub_evaluations.insert(IPA_pub_evaluations.end(),instance*challenge_vector_number,zero_poly_eva);
+        //IPA_pub_evaluations.insert(IPA_pub_evaluations.end(),instance*challenge_vector_number,zero_poly_eva);
         for (std::size_t j = 0; j < challenge_vector_number; j ++)
         {
             IPA_pub_evaluations.insert(IPA_pub_evaluations.end(),instance,public_poly_evaluations[j]);
         }
-        IPA_pub_evaluations.insert(IPA_pub_evaluations.end(),instance*challenge_vector_number,zero_poly_eva);
+        //IPA_pub_evaluations.insert(IPA_pub_evaluations.end(),instance*challenge_vector_number,zero_poly_eva);
         IPA_pub_evaluations.insert(IPA_pub_evaluations.end(),instance*2,bin_rep_eva);
 
         assert(IPA_pub_polys.size() == poly_number);
@@ -795,18 +788,21 @@ int main(){
     }
 
     std::cout<<"protocol run correctly!"<<std::endl;
-    std::cout<<"prover time is "<<std::endl;
-    std::cout<<prover_time/repeat_num<<" s"<<std::endl;
-    std::cout<<"verifier time is "<<std::endl;
-    std::cout<<(verifier_time+pubpoly_time)/repeat_num<<" s"<<std::endl;
-    std::cout<<"pubpoly time is "<<std::endl;
-    std::cout<<pubpoly_time/repeat_num<<" s"<<std::endl;
-    std::cout << "proof size hahs is " <<std::endl;
-    std::cout << total_proof_size_hash/repeat_num << std::endl;
-    std::cout << "proof size field is " <<std::endl;
-    std::cout << total_proof_size_field/repeat_num << std::endl;
-    std::cout << "total proof size is " << std::endl;
-    std::cout << (total_proof_size_hash+ total_proof_size_field)/repeat_num << std::endl;
+    std::cout<<"prover time, pubpoly time, verifier time, proof size field, proof size hash is "<<std::endl;
+    std::cout<< prover_time/repeat_num<< '\t' << pubpoly_time/repeat_num << '\t' << (verifier_time+pubpoly_time)/repeat_num << '\t'
+             << total_proof_size_field/repeat_num << '\t' << total_proof_size_hash/repeat_num << '\t' << (total_proof_size_hash+ total_proof_size_field)/repeat_num << std::endl;
+//    std::cout<<"prover time is "<<std::endl;
+//    std::cout<<prover_time/repeat_num<<" s"<<std::endl;
+//    std::cout<<"verifier time is "<<std::endl;
+//    std::cout<<(verifier_time+pubpoly_time)/repeat_num<<" s"<<std::endl;
+//    std::cout<<"pubpoly time is "<<std::endl;
+//    std::cout<<pubpoly_time/repeat_num<<" s"<<std::endl;
+//    std::cout << "proof size hahs is " <<std::endl;
+//    std::cout << total_proof_size_hash/repeat_num << std::endl;
+//    std::cout << "proof size field is " <<std::endl;
+//    std::cout << total_proof_size_field/repeat_num << std::endl;
+//    std::cout << "total proof size is " << std::endl;
+//    std::cout << (total_proof_size_hash+ total_proof_size_field)/repeat_num << std::endl;
 }
 
 
