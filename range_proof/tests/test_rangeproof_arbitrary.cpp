@@ -75,13 +75,13 @@ int main(){
 
     // common parameters
     // N
-    const std::size_t range_dim = 7;
+    const std::size_t range_dim = 5;
     const std::size_t range = 1ull << range_dim;
     // for implemention we set the base as 2
     const std::size_t base = 2;
-    const std::size_t instance = 256;
+    const std::size_t instance = 1;
     // rho
-    const std::size_t RS_extra_dimension = 4;
+    const std::size_t RS_extra_dimension = 3;
     // eta
     std::vector<std::size_t> localization_parameter_array({1,2});
     // lambda
@@ -107,7 +107,8 @@ int main(){
      * For location constraint in zk, deg(secret poly) = n + l , deg (sumcheck poly ) = (2n + l) - 1
      * So k = (3n + 2l) -2
      * Note that we should padding k to 2^? for FRI **/
-    const std::size_t sum_degree_bound = base * ( range + query_repetition_parameter ) +  range - base;
+    //const std::size_t sum_degree_bound = base * ( range + query_repetition_parameter ) +  range - base;
+    const std::size_t sum_degree_bound = 3 * range + query_repetition_parameter * 2 * ( 1<<localization_parameter_array[0] ) - 2;
     std::size_t FRI_degree_bound = libff::round_to_next_power_of_2(sum_degree_bound);
 
     // random challenges of verifier
@@ -314,7 +315,7 @@ int main(){
         for (std::size_t i = 0; i < c_polys_bin.size(); i ++)
         {
             std::vector<FieldT> one_vec(1, FieldT::one());
-            polynomial<FieldT> random_poly = polynomial<FieldT>::random_polynomial(query_repetition_parameter);
+            polynomial<FieldT> random_poly = polynomial<FieldT>::random_polynomial(query_repetition_parameter/2);
             c_polys_loc[i] = polynomial<FieldT> (IFFT_over_field_subset(c_vec[i],summation_domain)) + vanishing_polynomial * random_poly;
             polynomial<FieldT> c_polys_i_minus_one = c_polys_loc[i] - polynomial<FieldT>(std::move(one_vec));
             c_polys_bin[i] = c_polys_loc[i].multiply(c_polys_i_minus_one);
@@ -364,7 +365,7 @@ int main(){
         for (std::size_t i = 0; i < d_polys_bin.size(); i ++)
         {
             std::vector<FieldT> one_vec(1, FieldT::one());
-            polynomial<FieldT> random_poly = polynomial<FieldT>::random_polynomial(query_repetition_parameter);
+            polynomial<FieldT> random_poly = polynomial<FieldT>::random_polynomial(query_repetition_parameter/2);
             d_polys_loc[i] = polynomial<FieldT> (IFFT_over_field_subset(d_vec[i],summation_domain)) + vanishing_polynomial * random_poly;
             polynomial<FieldT> d_polys_i_minus_one = d_polys_loc[i] - polynomial<FieldT>(std::move(one_vec));
             d_polys_bin[i] = d_polys_loc[i].multiply(d_polys_i_minus_one);

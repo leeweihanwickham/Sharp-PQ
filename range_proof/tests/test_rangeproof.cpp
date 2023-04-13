@@ -26,21 +26,21 @@ int main(){
 
     typedef libff::Fields_64 FieldT;
 
-    const std::size_t repeat_num = 10;
+    const std::size_t repeat_num = 100;
 
     // common parameters
     // N
-    const std::size_t range_dim = 11;
+    const std::size_t range_dim = 7;
     const std::size_t range = 1ull << range_dim;
     // for implemention we set the base as 2
     const std::size_t base = 2;
-    const std::size_t instance = 1024;
+    const std::size_t instance = 1;
     // rho
-    const std::size_t RS_extra_dimension = 4;
+    const std::size_t RS_extra_dimension = 3;
     // eta
-    std::vector<std::size_t> localization_parameter_array({1,2});
+    std::vector<std::size_t> localization_parameter_array({2,3});
     // lambda
-    const std::size_t security_parameter = 120;
+    const std::size_t security_parameter = 100;
     // |F|
     const std::size_t field_size_bits = (long double)(libff::soundness_log_of_field_size_helper<FieldT>(FieldT::zero()));
 
@@ -57,12 +57,12 @@ int main(){
     // l - query repetition parameter
     const std::size_t query_repetition_parameter = ceil( double(security_parameter) / RS_extra_dimension );
     /** the max poly degree
-     * Two kinds constraints, one is binary constraint, one is location constraint
-     * For binary constraint in zk, deg(secret poly) = 2*(n + l) - 1. deg (sumcheck poly) = (3n + 2l) -2
-     * For location constraint in zk, deg(secret poly) = n + l , deg (sumcheck poly ) = (2n + l) - 1
-     * So k = (3n + 2l) -2
-     * Note that we should padding k to 2^? for FRI **/
-    const std::size_t sum_degree_bound = base * ( range + query_repetition_parameter ) +  range - base;
+     * Only binary constraint is enough
+     * For binary constraint in zk, deg(secret poly) = 2*n + l*2^{eta_1} - 1. deg (sumcheck poly) = 3*n + l*2^{eta_1} - 2
+     * Note that we should padding k to 2^? for FRI
+     * However, there  **/
+    //const std::size_t sum_degree_bound = base * ( range + query_repetition_parameter ) +  range - base;
+    const std::size_t sum_degree_bound = 3 * range + query_repetition_parameter * 2 * ( 1<<localization_parameter_array[0] ) - 2;
     std::size_t FRI_degree_bound = libff::round_to_next_power_of_2(sum_degree_bound);
 
     // random challenges of verifier
@@ -457,8 +457,11 @@ int main(){
         /** Compute the proof size **/
 
         std::size_t secret_vector_tree_hashes = par_for_secret_vector.path_lenth;
+        std::cout << "FRI_tree_hashes 1 " << secret_vector_tree_hashes << std::endl;
         std::size_t h_tree_hashes = IPA_prover_->h_tree_lenth;
+        std::cout << "FRI_tree_hashes 2 " << h_tree_hashes << std::endl;
         std::size_t FRI_trees_hashes = IPA_prover_->FRI_tree_lenth;
+        std::cout << "FRI_tree_hashes 3 " << FRI_trees_hashes << std::endl;
         std::size_t proof_size_path_hash_number = secret_vector_tree_hashes + h_tree_hashes + FRI_trees_hashes;
         std::size_t proof_size_roots_hash_number =
                 1 + 1 + (localization_parameter_array.size() * inter_repetition_parameter);
@@ -474,29 +477,36 @@ int main(){
 
         std::size_t proof_size_field_number = 0;
         std::size_t poly_degree_bound_last_round = FRI_degree_bound;
+        //std::cout << "FRI_degree_bound 1 " << FRI_degree_bound << std::endl;
         // Note that it is necessary to query (query number) times in all rounds instead of each round
         for (std::size_t i = 0; i < localization_parameter_array.size(); i++) {
             if (i == 0) {
                 // v field number
                 proof_size_field_number +=
                         (instance + 1) * query_repetition_parameter * (1 << localization_parameter_array[i]);
+                //std::cout << "number 1 " << proof_size_field_number << std::endl;
                 // h field number
                 proof_size_field_number += query_repetition_parameter * (1 << localization_parameter_array[i]);
-                poly_degree_bound_last_round /= (1ull << localization_parameter_array[i]);
+                //std::cout << "number 2 " << proof_size_field_number << std::endl;
+                poly_degree_bound_last_round /= (1 << localization_parameter_array[i]);
+                //std::cout << "FRI_degree_bound 2 " << poly_degree_bound_last_round << std::endl;
             } else {
                 proof_size_field_number += query_repetition_parameter * (1 << localization_parameter_array[i]) *
                                            inter_repetition_parameter;
-                poly_degree_bound_last_round /= (1ull << localization_parameter_array[i]);
+                //std::cout << "number 3 " << proof_size_field_number << std::endl;
+                poly_degree_bound_last_round /= (1 << localization_parameter_array[i]);
+                //std::cout << "FRI_degree_bound 3 " << poly_degree_bound_last_round << std::endl;
             }
         }
 
         // The final_poly proof size
         std::size_t FRI_field_number_last_round = inter_repetition_parameter * (poly_degree_bound_last_round + 1);
+        //std::cout << "number 4 " << FRI_field_number_last_round << std::endl;
         proof_size_field_number += FRI_field_number_last_round;
         double proof_size_field = double((proof_size_field_number * field_size_bits) / 1024.0 / 8.0);
         total_proof_size_field += proof_size_field;
-        //std::cout << "proof_size_field_number is " << proof_size_field_number << std::endl;
-        //std::cout << "proof_size_field is " << proof_size_field << std::endl;
+        std::cout << "proof_size_field_number is " << proof_size_field_number << std::endl;
+        std::cout << "proof_size_field is " << proof_size_field << std::endl;
 
         double total_proof_size = proof_size_field + proof_size_hash;
 //        libff::print_indent();

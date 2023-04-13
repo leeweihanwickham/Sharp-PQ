@@ -60,6 +60,16 @@ add_executable(test_rangeproof tests/test_rangeproof.cpp
         bcs/BLAKE3/blake3_avx512_x86-64_unix.S)
 target_link_libraries(test_rangeproof range_proof)
 
+add_executable(test_payment_check tests/test_payment_check.cpp
+        bcs/BLAKE3/blake3.c
+        bcs/BLAKE3/blake3_dispatch.c
+        bcs/BLAKE3/blake3_portable.c
+        bcs/BLAKE3/blake3_sse2_x86-64_unix.S
+        bcs/BLAKE3/blake3_sse41_x86-64_unix.S
+        bcs/BLAKE3/blake3_avx2_x86-64_unix.S
+        bcs/BLAKE3/blake3_avx512_x86-64_unix.S)
+target_link_libraries(test_payment_check range_proof)
+
 add_executable(test_rangeproof_proveable tests/test_rangeproof_proveable.cpp
         bcs/BLAKE3/blake3.c
         bcs/BLAKE3/blake3_dispatch.c

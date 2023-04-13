@@ -1,8 +1,10 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
   "ASM"
-  "C"
-  "CXX"
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
@@ -21,56 +23,23 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/usr/include"
-  "../."
-  "../range_proof/../depends/libfqfft"
-  "../range_proof/../depends/libff"
-  "../depends/libff/libff/.."
-  "/usr/include/x86_64-linux-gnu"
-  )
-set(CMAKE_DEPENDS_CHECK_C
-  "/home/leeweihan/Desktop/range proof/range_proof/bcs/BLAKE3/blake3.c" "/home/leeweihan/Desktop/range proof/build/range_proof/CMakeFiles/test_rangeproof_arbitrary.dir/bcs/BLAKE3/blake3.c.o"
-  "/home/leeweihan/Desktop/range proof/range_proof/bcs/BLAKE3/blake3_dispatch.c" "/home/leeweihan/Desktop/range proof/build/range_proof/CMakeFiles/test_rangeproof_arbitrary.dir/bcs/BLAKE3/blake3_dispatch.c.o"
-  "/home/leeweihan/Desktop/range proof/range_proof/bcs/BLAKE3/blake3_portable.c" "/home/leeweihan/Desktop/range proof/build/range_proof/CMakeFiles/test_rangeproof_arbitrary.dir/bcs/BLAKE3/blake3_portable.c.o"
-  )
-set(CMAKE_C_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_C
-  "USE_ASM"
-  )
-
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../."
-  "../range_proof/../depends/libfqfft"
-  "../range_proof/../depends/libff"
-  "../depends/libff/libff/.."
-  "/usr/include/x86_64-linux-gnu"
-  )
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/leeweihan/Desktop/range proof/range_proof/tests/test_rangeproof_arbitrary.cpp" "/home/leeweihan/Desktop/range proof/build/range_proof/CMakeFiles/test_rangeproof_arbitrary.dir/tests/test_rangeproof_arbitrary.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "USE_ASM"
-  )
-
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../."
-  "../range_proof/../depends/libfqfft"
-  "../range_proof/../depends/libff"
-  "../depends/libff/libff/.."
+  "/home/leeweihan/Desktop/range proof/."
+  "/home/leeweihan/Desktop/range proof/range_proof/../depends/libfqfft"
+  "/home/leeweihan/Desktop/range proof/range_proof/../depends/libff"
+  "/home/leeweihan/Desktop/range proof/depends/libff/libff/.."
   "/usr/include/x86_64-linux-gnu"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/leeweihan/Desktop/range proof/build/range_proof/CMakeFiles/range_proof.dir/DependInfo.cmake"
-  "/home/leeweihan/Desktop/range proof/build/depends/libff/libff/CMakeFiles/ff.dir/DependInfo.cmake"
-  "/home/leeweihan/Desktop/range proof/build/depends/CMakeFiles/zm.dir/DependInfo.cmake"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/leeweihan/Desktop/range proof/range_proof/bcs/BLAKE3/blake3.c" "range_proof/CMakeFiles/test_rangeproof_arbitrary.dir/bcs/BLAKE3/blake3.c.o" "gcc" "range_proof/CMakeFiles/test_rangeproof_arbitrary.dir/bcs/BLAKE3/blake3.c.o.d"
+  "/home/leeweihan/Desktop/range proof/range_proof/bcs/BLAKE3/blake3_dispatch.c" "range_proof/CMakeFiles/test_rangeproof_arbitrary.dir/bcs/BLAKE3/blake3_dispatch.c.o" "gcc" "range_proof/CMakeFiles/test_rangeproof_arbitrary.dir/bcs/BLAKE3/blake3_dispatch.c.o.d"
+  "/home/leeweihan/Desktop/range proof/range_proof/bcs/BLAKE3/blake3_portable.c" "range_proof/CMakeFiles/test_rangeproof_arbitrary.dir/bcs/BLAKE3/blake3_portable.c.o" "gcc" "range_proof/CMakeFiles/test_rangeproof_arbitrary.dir/bcs/BLAKE3/blake3_portable.c.o.d"
+  "/home/leeweihan/Desktop/range proof/range_proof/tests/test_rangeproof_arbitrary.cpp" "range_proof/CMakeFiles/test_rangeproof_arbitrary.dir/tests/test_rangeproof_arbitrary.cpp.o" "gcc" "range_proof/CMakeFiles/test_rangeproof_arbitrary.dir/tests/test_rangeproof_arbitrary.cpp.o.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

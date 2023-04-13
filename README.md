@@ -21,7 +21,7 @@ Run test_rangeproof_proveable for (batch) range proofs for fixed ranges in the p
 support ranges where the base is 2. Other parameters such as instance number, security level, range dimension,
 localization array, code rate are all adjustable.
 
-We implementa a prime field F_p where p = 2^64 -2^32 +1. This can be seen in depends/libff/libff/algebra/fields/prime_base/fields_64.hpp
+We implement a prime field F_p where p = 2^64 -2^32 +1. This can be seen in depends/libff/libff/algebra/fields/prime_base/fields_64.hpp
  and fp_64.hpp.
 
 

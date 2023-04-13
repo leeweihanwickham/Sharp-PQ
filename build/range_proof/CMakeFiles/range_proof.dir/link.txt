@@ -1,2 +1,2 @@
-/usr/bin/ar qc librange_proof.a  CMakeFiles/range_proof.dir/common/common.cpp.o CMakeFiles/range_proof.dir/protocols/ldt/ldt_reducer.cpp.o CMakeFiles/range_proof.dir/iop/utilities/batching.cpp.o CMakeFiles/range_proof.dir/algebra/utils.cpp.o
+/usr/bin/ar qc librange_proof.a CMakeFiles/range_proof.dir/common/common.cpp.o CMakeFiles/range_proof.dir/protocols/ldt/ldt_reducer.cpp.o CMakeFiles/range_proof.dir/iop/utilities/batching.cpp.o CMakeFiles/range_proof.dir/algebra/utils.cpp.o
 /usr/bin/ranlib librange_proof.a

@@ -90,6 +90,7 @@
 /home/leeweihan/Desktop/range proof/cmake-build-debug/range_proof/CMakeFiles/test_merkleTree.dir
 /home/leeweihan/Desktop/range proof/cmake-build-debug/range_proof/CMakeFiles/test_fri.dir
 /home/leeweihan/Desktop/range proof/cmake-build-debug/range_proof/CMakeFiles/test_rangeproof.dir
+/home/leeweihan/Desktop/range proof/cmake-build-debug/range_proof/CMakeFiles/test_payment_check.dir
 /home/leeweihan/Desktop/range proof/cmake-build-debug/range_proof/CMakeFiles/test_rangeproof_proveable.dir
 /home/leeweihan/Desktop/range proof/cmake-build-debug/range_proof/CMakeFiles/test_rangeproof_arbitrary.dir
 /home/leeweihan/Desktop/range proof/cmake-build-debug/range_proof/CMakeFiles/test.dir
