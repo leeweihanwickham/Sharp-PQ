@@ -3,7 +3,7 @@
 Range proofs for arbitrary ranges in the conjecture setting
  This file is part of "A Succinct and Efficient Range Proof with More Functionalities based on Interactive Oracle Proof"
 *****************************************************************************
-* @author   Weihan Li
+* @author
 *****************************************************************************/
 
 // This is a range proof for v \in [A,B] for arbitrary A and B with u^(l-1) < B < u^(l)

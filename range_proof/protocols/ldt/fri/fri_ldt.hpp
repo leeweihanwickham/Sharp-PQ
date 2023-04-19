@@ -3,7 +3,7 @@
 FRI interfaces.
  This file is part of "A Succinct and Efficient Range Proof with More Functionalities based on Interactive Oracle Proof"
 *****************************************************************************
-* @author   Weihan Li
+* @author
 *****************************************************************************/
 #ifndef PROTOCOLS_LDT_FRI_FRI_LDT_HPP_
 #define PROTOCOLS_LDT_FRI_FRI_LDT_HPP_

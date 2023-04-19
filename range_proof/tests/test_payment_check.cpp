@@ -1,6 +1,4 @@
-//
-// Created by leeweihan on 23-4-5.
-//
+
 
 
 /**@file
@@ -8,7 +6,7 @@
 Range proofs for when using in a payment system
 
 *****************************************************************************
-* @author   Weihan Li
+* @author
 *****************************************************************************/
 
 /**Given commitments to A,B, we first prove A + B = C by an inner product argument, this is transaction balance check

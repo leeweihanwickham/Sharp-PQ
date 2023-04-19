@@ -3,7 +3,7 @@
 Test FRI
  This file is part of "A Succinct and Efficient Range Proof with More Functionalities based on Interactive Oracle Proof"
 *****************************************************************************
-* @author   Weihan Li
+* @author
 *****************************************************************************/
 
 

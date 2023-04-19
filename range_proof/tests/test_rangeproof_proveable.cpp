@@ -4,7 +4,7 @@ Range proofs for fixed ranges in the provable setting
  One can also modify this for arbitrary ranges
  This file is part of "A Succinct and Efficient Range Proof with More Functionalities based on Interactive Oracle Proof"
 *****************************************************************************
-* @author   Weihan Li
+* @author
 *****************************************************************************/
 
 #include <algorithm>
