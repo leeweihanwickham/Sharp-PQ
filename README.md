@@ -16,7 +16,7 @@ for finite fields and FFT operation on multiplicative cosets.
 We also refer to  [libiop](https://github.com/scipr-lab/libiop) for 
 some helpful functions to implement FRI.
 
-The main code is Fast Reed-Solomon Interactive Oracle Proof of Proximity (FRI) in range_proof/protocols/ldt/fri/fri_ldt.hpp. We
+The code for Fast Reed-Solomon Interactive Oracle Proof of Proximity (FRI) is in [fri_ldt.hpp](range_proof/protocols/ldt/fri/fri_ldt.hpp). We
 use [BLAKE3](https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf) for the hash functions in Merkle trees. 
 
 The range proofs are all in [range_proof/tests](/range_proof/tests). Run `test_rangeproof.cpp` for (batch) range proofs for fixed ranges in the conjecture setting.
