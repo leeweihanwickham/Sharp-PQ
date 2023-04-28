@@ -18,7 +18,7 @@ some helpful functions to implement FRI.
 The main code is Fast Reed-Solomon Interactive Oracle Proof of Proximity (FRI) in range_proof/protocols/ldt/fri/fri_ldt.hpp. We
 use [BLAKE3](https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf) for the hash functions in Merkle trees. 
 
-The range proofs are all in range_proof/tests. Run test_rangeproof.cpp for (batch) range proofs for fixed ranges in the conjecture setting.
+The range proofs are all in [tests](/range_proof/tests). Run test_rangeproof.cpp for (batch) range proofs for fixed ranges in the conjecture setting.
 Run test_rangeproof_arbitrary.cpp for (batch) range proofs for arbitrary ranges in the conjecture setting.
 Run test_rangeproof_proveable.cpp for (batch) range proofs for fixed ranges in the proveable setting. We currently only
 support ranges where the base is 2. For the evaluation of payment systems, see test_payment_check.cpp.

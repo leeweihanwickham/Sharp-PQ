@@ -30,15 +30,15 @@ int main(){
 
     // common parameters
     // N
-    const std::size_t range_dim = 7;
+    const std::size_t range_dim = 12;
     const std::size_t range = 1ull << range_dim;
     // for implemention we set the base as 2
     const std::size_t base = 2;
     const std::size_t instance = 1;
     // rho
-    const std::size_t RS_extra_dimension = 3;
+    const std::size_t RS_extra_dimension = 4;
     // eta
-    std::vector<std::size_t> localization_parameter_array({2,3});
+    std::vector<std::size_t> localization_parameter_array({1,2});
     // lambda
     const std::size_t security_parameter = 100;
     // |F|
