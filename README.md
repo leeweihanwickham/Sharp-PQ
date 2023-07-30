@@ -1,6 +1,6 @@
-# Lipara: Succinct Batch Proofs for Arbitrary Ranges based on IOP
+# Sharp-PQ: Succinct Hash-based Arbitrary-Range Proof
 
-This is the implementation of Lipara, Succinct Batch Proofs for Arbitrary Ranges based on IOP.
+This is the implementation of Sharp-PQ: Succinct Hash-based Arbitrary-Range Proof.
 It has the following properties:
 
 - **Flexibility.** It is a range proof supporting batch processing and arbitrary ranges.
