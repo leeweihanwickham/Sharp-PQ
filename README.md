@@ -30,7 +30,7 @@ localization array, code rate are all adjustable.
 
 
 We implement a prime field ![](http://latex.codecogs.com/gif.latex?\mathbb{F}_p) where ![](http://latex.codecogs.com/gif.latex?p=2^{64}-2^{32}+1). This can be seen in 
-[fields_64.hpp](/depends/libff/libff/algebra/fields/prime_base). The special properties of this field would help to improve the speed of field operations.
+[fields_64.hpp](depends/libff/libff/algebra/fields/prime_base). The special properties of this field would help to improve the speed of field operations.
 See [here](https://cp4space.hatsya.com/2021/09/01/an-efficient-prime-for-number-theoretic-transforms/)
 for details.
 
