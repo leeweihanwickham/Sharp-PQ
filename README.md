@@ -22,15 +22,13 @@ use [BLAKE3](https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf)
 The range proofs are all in [range_proof/tests](range_proof/tests). Run `test_rangeproof.cpp` for (batch) range proofs for fixed ranges in the conjecture setting.
 Run `test_rangeproof_arbitrary.cpp` for (batch) range proofs for arbitrary ranges in the conjecture setting.
 Run `test_rangeproof_proveable.cpp` for (batch) range proofs for fixed ranges in the proveable setting. We currently only
-support ranges where the base is 2. For the evaluation of payment systems, see `test_payment_check.cpp`.
+support ranges where the base is 2. For the evaluation of applications like confidential transactions and anonymous auctions, see `test_payment_check.cpp`.
 
 Parameters such as instance number, security level, range dimension,
 localization array, code rate are all adjustable.
 
-
-
 We implement a prime field ![](http://latex.codecogs.com/gif.latex?\mathbb{F}_p) where ![](http://latex.codecogs.com/gif.latex?p=2^{64}-2^{32}+1). This can be seen in 
-[fields_64.hpp](depends/libff/libff/algebra/fields/prime_base). The special properties of this field would help to improve the speed of field operations.
+[fields_64.hpp](depends/libff/libff/algebra/fields/prime_base/fields_64.hpp). The special properties of this field would help to improve the speed of field operations.
 See [here](https://cp4space.hatsya.com/2021/09/01/an-efficient-prime-for-number-theoretic-transforms/)
 for details.
 
