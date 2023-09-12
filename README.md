@@ -11,7 +11,7 @@ It is provable secure in the random oracle model.
   operations.
 
 
-This repository refers to [libff](https://https://github.com/scipr-lab/libff) for the framework
+This repository refers to [libff](https://github.com/scipr-lab/libff) for the framework
 for finite fields and FFT operation on multiplicative cosets.
 We also refer to  [libiop](https://github.com/scipr-lab/libiop) for 
 some helpful functions to implement FRI.
@@ -19,7 +19,7 @@ some helpful functions to implement FRI.
 The code for Fast Reed-Solomon Interactive Oracle Proof of Proximity (FRI) is in [fri_ldt.hpp](range_proof/protocols/ldt/fri/fri_ldt.hpp). We
 use [BLAKE3](https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf) for the hash functions in Merkle trees. 
 
-The range proofs are all in [range_proof/tests](/range_proof/tests). Run `test_rangeproof.cpp` for (batch) range proofs for fixed ranges in the conjecture setting.
+The range proofs are all in [range_proof/tests](range_proof/tests). Run `test_rangeproof.cpp` for (batch) range proofs for fixed ranges in the conjecture setting.
 Run `test_rangeproof_arbitrary.cpp` for (batch) range proofs for arbitrary ranges in the conjecture setting.
 Run `test_rangeproof_proveable.cpp` for (batch) range proofs for fixed ranges in the proveable setting. We currently only
 support ranges where the base is 2. For the evaluation of payment systems, see `test_payment_check.cpp`.
@@ -35,7 +35,7 @@ See [here](https://cp4space.hatsya.com/2021/09/01/an-efficient-prime-for-number-
 for details.
 
 We refer to the implementation of [Bulletproofs](https://github.com/xevisalle/zpie) in C 
-and [LNS20](github.com/gregorseiler/irelzk) in C++. 
+and [LNS20](https://github.com/gregorseiler/irelzk) in C++. 
 
 ## Usage
 
