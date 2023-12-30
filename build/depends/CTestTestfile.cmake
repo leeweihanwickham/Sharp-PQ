@@ -1,10 +1,10 @@
 # CMake generated Testfile for 
-# Source directory: /home/leeweihan/Desktop/range proof/depends
-# Build directory: /home/leeweihan/Desktop/range proof/build/depends
+# Source directory: /home/leeweihan/Desktop/sharp-pq/Sharp-PQ/depends
+# Build directory: /home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
-subdirs("gtest")
-subdirs("benchmark")
-subdirs("libff")
-subdirs("libfqfft")
+subdirs(gtest)
+subdirs(benchmark)
+subdirs(libff)
+subdirs(libfqfft)

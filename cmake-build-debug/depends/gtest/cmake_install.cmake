@@ -1,4 +1,4 @@
-# Install script for directory: /home/leeweihan/Desktop/range proof/depends/gtest
+# Install script for directory: /home/leeweihan/Desktop/Sharp-PQ/depends/gtest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/leeweihan/Desktop/range proof/cmake-build-debug/depends/gtest/googlemock/cmake_install.cmake")
+  include("/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/depends/gtest/googlemock/cmake_install.cmake")
 
 endif()
 

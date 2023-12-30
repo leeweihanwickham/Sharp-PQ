@@ -1,4 +1,4 @@
-# Install script for directory: /home/leeweihan/Desktop/range proof
+# Install script for directory: /home/leeweihan/Desktop/Sharp-PQ
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/leeweihan/Desktop/range proof/cmake-build-debug/depends/cmake_install.cmake")
-  include("/home/leeweihan/Desktop/range proof/cmake-build-debug/range_proof/cmake_install.cmake")
+  include("/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/depends/cmake_install.cmake")
+  include("/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/range_proof/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/leeweihan/Desktop/range proof/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

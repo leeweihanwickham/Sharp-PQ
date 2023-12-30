@@ -1,9 +1,6 @@
-
-
-
 /**@file
 *****************************************************************************
-Range proofs for when using in a payment system
+Range proofs for when using in a confidential transations
 
 *****************************************************************************
 * @author

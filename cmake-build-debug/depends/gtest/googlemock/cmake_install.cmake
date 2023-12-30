@@ -1,4 +1,4 @@
-# Install script for directory: /home/leeweihan/Desktop/range proof/depends/gtest/googlemock
+# Install script for directory: /home/leeweihan/Desktop/Sharp-PQ/depends/gtest/googlemock
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,28 +42,28 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/leeweihan/Desktop/range proof/cmake-build-debug/depends/gtest/googlemock/libgmockd.a")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/depends/gtest/googlemock/libgmockd.a")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/leeweihan/Desktop/range proof/cmake-build-debug/depends/gtest/googlemock/libgmock_maind.a")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/depends/gtest/googlemock/libgmock_maind.a")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/leeweihan/Desktop/range proof/depends/gtest/googlemock/include/gmock")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/leeweihan/Desktop/Sharp-PQ/depends/gtest/googlemock/include/gmock")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES
-    "/home/leeweihan/Desktop/range proof/cmake-build-debug/gmock.pc"
-    "/home/leeweihan/Desktop/range proof/cmake-build-debug/gmock_main.pc"
+    "/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/gmock.pc"
+    "/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/gmock_main.pc"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/leeweihan/Desktop/range proof/cmake-build-debug/depends/gtest/googlemock/gtest/cmake_install.cmake")
+  include("/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/depends/gtest/googlemock/gtest/cmake_install.cmake")
 
 endif()
 

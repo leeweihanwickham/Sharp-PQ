@@ -26,7 +26,7 @@ int main(){
 
     typedef libff::Fields_64 FieldT;
 
-    const std::size_t repeat_num = 100;
+    const std::size_t repeat_num = 10;
 
     // common parameters
     // N

@@ -6,18 +6,6 @@
 
 #IncludeRegexTransform: 
 
-.././depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.hpp
-libff/algebra/curves/alt_bn128/alt_bn128_g1.hpp
--
-libff/algebra/curves/alt_bn128/alt_bn128_g2.hpp
--
-libff/algebra/curves/alt_bn128/alt_bn128_init.hpp
--
-libff/algebra/curves/alt_bn128/alt_bn128_pairing.hpp
--
-libff/algebra/curves/public_params.hpp
--
-
 .././depends/libff/libff/algebra/fields/prime_base/fields_64.hpp
 libff/algebra/fields/prime_base/fp_64.hpp
 -
@@ -125,8 +113,6 @@ range_proof/algebra/utils.hpp
 .././range_proof/algebra/parallel_random_element.cpp
 vector
 -
-depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.hpp
-.././range_proof/algebra/depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.hpp
 depends/libff/libff/algebra/fields/prime_base/fields_64.hpp
 .././range_proof/algebra/depends/libff/libff/algebra/fields/prime_base/fields_64.hpp
 
@@ -289,58 +275,6 @@ range_proof/algebra/field_subset/subspace.hpp
 .././range_proof/protocols/ldt/range_proof/algebra/field_subset/subspace.hpp
 range_proof/iop/iop.hpp
 .././range_proof/protocols/ldt/range_proof/iop/iop.hpp
-
-../range_proof/../depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_fields.hpp
-libff/algebra/fields/prime_base/fp.hpp
--
-libff/algebra/fields/prime_extension/fp12_2over3over2.hpp
--
-libff/algebra/fields/prime_extension/fp2.hpp
--
-libff/algebra/fields/prime_extension/fp6_3over2.hpp
--
-
-../range_proof/../depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g1.hpp
-vector
--
-libff/algebra/curves/alt_bn128/alt_bn128_init.hpp
--
-libff/algebra/curves/curve_utils.hpp
--
-
-../range_proof/../depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_g2.hpp
-vector
--
-libff/algebra/curves/alt_bn128/alt_bn128_init.hpp
--
-libff/algebra/curves/curve_utils.hpp
--
-
-../range_proof/../depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_init.hpp
-libff/algebra/curves/public_params.hpp
--
-libff/algebra/curves/alt_bn128/alt_bn128_fields.hpp
--
-
-../range_proof/../depends/libff/libff/algebra/curves/alt_bn128/alt_bn128_pairing.hpp
-vector
--
-libff/algebra/curves/alt_bn128/alt_bn128_init.hpp
--
-
-../range_proof/../depends/libff/libff/algebra/curves/curve_utils.hpp
-cstdint
--
-libff/algebra/field_utils/bigint.hpp
--
-libff/algebra/curves/curve_utils.tcc
--
-
-../range_proof/../depends/libff/libff/algebra/curves/curve_utils.tcc
-
-../range_proof/../depends/libff/libff/algebra/curves/public_params.hpp
-vector
--
 
 ../range_proof/../depends/libff/libff/algebra/field_utils/algorithms.hpp
 cstdint
@@ -524,46 +458,6 @@ ctime
 chrono
 -
 immintrin.h
--
-
-../range_proof/../depends/libff/libff/algebra/fields/prime_extension/fp12_2over3over2.hpp
-vector
--
-libff/algebra/fields/prime_base/fp.hpp
--
-libff/algebra/fields/prime_extension/fp2.hpp
--
-libff/algebra/fields/prime_extension/fp6_3over2.hpp
--
-libff/algebra/fields/prime_extension/fp12_2over3over2.tcc
--
-
-../range_proof/../depends/libff/libff/algebra/fields/prime_extension/fp12_2over3over2.tcc
-
-../range_proof/../depends/libff/libff/algebra/fields/prime_extension/fp2.hpp
-vector
--
-libff/algebra/fields/prime_base/fp.hpp
--
-libff/algebra/fields/prime_extension/fp2.tcc
--
-
-../range_proof/../depends/libff/libff/algebra/fields/prime_extension/fp2.tcc
-libff/algebra/field_utils/field_utils.hpp
--
-
-../range_proof/../depends/libff/libff/algebra/fields/prime_extension/fp6_3over2.hpp
-vector
--
-libff/algebra/fields/prime_base/fp.hpp
--
-libff/algebra/fields/prime_extension/fp2.hpp
--
-libff/algebra/fields/prime_extension/fp6_3over2.tcc
--
-
-../range_proof/../depends/libff/libff/algebra/fields/prime_extension/fp6_3over2.tcc
-libff/algebra/field_utils/field_utils.hpp
 -
 
 ../range_proof/../depends/libff/libff/common/double.hpp
@@ -806,31 +700,31 @@ iostream
 string
 -
 
-/home/leeweihan/Desktop/range proof/range_proof/algebra/utils.cpp
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/range_proof/algebra/utils.cpp
 iostream
 -
 range_proof/algebra/utils.hpp
-/home/leeweihan/Desktop/range proof/range_proof/algebra/range_proof/algebra/utils.hpp
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/range_proof/algebra/range_proof/algebra/utils.hpp
 
-/home/leeweihan/Desktop/range proof/range_proof/common/common.cpp
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/range_proof/common/common.cpp
 range_proof/common/common.hpp
 -
 
-/home/leeweihan/Desktop/range proof/range_proof/iop/utilities/batching.cpp
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/range_proof/iop/utilities/batching.cpp
 batching.hpp
-/home/leeweihan/Desktop/range proof/range_proof/iop/utilities/batching.hpp
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/range_proof/iop/utilities/batching.hpp
 
-/home/leeweihan/Desktop/range proof/range_proof/iop/utilities/batching.hpp
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/range_proof/iop/utilities/batching.hpp
 vector
 -
 range_proof/iop/iop.hpp
-/home/leeweihan/Desktop/range proof/range_proof/iop/utilities/range_proof/iop/iop.hpp
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/range_proof/iop/utilities/range_proof/iop/iop.hpp
 range_proof/iop/utilities/batching.tcc
-/home/leeweihan/Desktop/range proof/range_proof/iop/utilities/range_proof/iop/utilities/batching.tcc
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/range_proof/iop/utilities/range_proof/iop/utilities/batching.tcc
 
-/home/leeweihan/Desktop/range proof/range_proof/protocols/ldt/ldt_reducer.cpp
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/range_proof/protocols/ldt/ldt_reducer.cpp
 range_proof/protocols/ldt/ldt_reducer.hpp
-/home/leeweihan/Desktop/range proof/range_proof/protocols/ldt/range_proof/protocols/ldt/ldt_reducer.hpp
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/range_proof/protocols/ldt/range_proof/protocols/ldt/ldt_reducer.hpp
 cassert
 -
 stdexcept

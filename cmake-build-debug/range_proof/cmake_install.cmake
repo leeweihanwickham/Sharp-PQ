@@ -1,4 +1,4 @@
-# Install script for directory: /home/leeweihan/Desktop/range proof/range_proof
+# Install script for directory: /home/leeweihan/Desktop/Sharp-PQ/range_proof
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

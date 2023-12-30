@@ -1,102 +1,102 @@
-/home/leeweihan/Desktop/range proof/build/CMakeFiles/check.dir
-/home/leeweihan/Desktop/range proof/build/CMakeFiles/test.dir
-/home/leeweihan/Desktop/range proof/build/CMakeFiles/edit_cache.dir
-/home/leeweihan/Desktop/range proof/build/CMakeFiles/rebuild_cache.dir
-/home/leeweihan/Desktop/range proof/build/CMakeFiles/list_install_components.dir
-/home/leeweihan/Desktop/range proof/build/CMakeFiles/install.dir
-/home/leeweihan/Desktop/range proof/build/CMakeFiles/install/local.dir
-/home/leeweihan/Desktop/range proof/build/CMakeFiles/install/strip.dir
-/home/leeweihan/Desktop/range proof/build/depends/CMakeFiles/zm.dir
-/home/leeweihan/Desktop/range proof/build/depends/CMakeFiles/test.dir
-/home/leeweihan/Desktop/range proof/build/depends/CMakeFiles/edit_cache.dir
-/home/leeweihan/Desktop/range proof/build/depends/CMakeFiles/rebuild_cache.dir
-/home/leeweihan/Desktop/range proof/build/depends/CMakeFiles/list_install_components.dir
-/home/leeweihan/Desktop/range proof/build/depends/CMakeFiles/install.dir
-/home/leeweihan/Desktop/range proof/build/depends/CMakeFiles/install/local.dir
-/home/leeweihan/Desktop/range proof/build/depends/CMakeFiles/install/strip.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/CMakeFiles/test.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/CMakeFiles/edit_cache.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/CMakeFiles/rebuild_cache.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/CMakeFiles/list_install_components.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/CMakeFiles/install.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/CMakeFiles/install/local.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/CMakeFiles/install/strip.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/googlemock/CMakeFiles/gmock.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/googlemock/CMakeFiles/gmock_main.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/googlemock/CMakeFiles/test.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/googlemock/CMakeFiles/edit_cache.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/googlemock/CMakeFiles/rebuild_cache.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/googlemock/CMakeFiles/list_install_components.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/googlemock/CMakeFiles/install.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/googlemock/CMakeFiles/install/local.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/googlemock/CMakeFiles/install/strip.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/googlemock/gtest/CMakeFiles/gtest.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/googlemock/gtest/CMakeFiles/test.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/googlemock/gtest/CMakeFiles/edit_cache.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/googlemock/gtest/CMakeFiles/rebuild_cache.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/googlemock/gtest/CMakeFiles/list_install_components.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/googlemock/gtest/CMakeFiles/install.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/googlemock/gtest/CMakeFiles/install/local.dir
-/home/leeweihan/Desktop/range proof/build/depends/gtest/googlemock/gtest/CMakeFiles/install/strip.dir
-/home/leeweihan/Desktop/range proof/build/depends/benchmark/CMakeFiles/test.dir
-/home/leeweihan/Desktop/range proof/build/depends/benchmark/CMakeFiles/edit_cache.dir
-/home/leeweihan/Desktop/range proof/build/depends/benchmark/CMakeFiles/rebuild_cache.dir
-/home/leeweihan/Desktop/range proof/build/depends/benchmark/CMakeFiles/list_install_components.dir
-/home/leeweihan/Desktop/range proof/build/depends/benchmark/CMakeFiles/install.dir
-/home/leeweihan/Desktop/range proof/build/depends/benchmark/CMakeFiles/install/local.dir
-/home/leeweihan/Desktop/range proof/build/depends/benchmark/CMakeFiles/install/strip.dir
-/home/leeweihan/Desktop/range proof/build/depends/benchmark/src/CMakeFiles/benchmark.dir
-/home/leeweihan/Desktop/range proof/build/depends/benchmark/src/CMakeFiles/test.dir
-/home/leeweihan/Desktop/range proof/build/depends/benchmark/src/CMakeFiles/edit_cache.dir
-/home/leeweihan/Desktop/range proof/build/depends/benchmark/src/CMakeFiles/rebuild_cache.dir
-/home/leeweihan/Desktop/range proof/build/depends/benchmark/src/CMakeFiles/list_install_components.dir
-/home/leeweihan/Desktop/range proof/build/depends/benchmark/src/CMakeFiles/install.dir
-/home/leeweihan/Desktop/range proof/build/depends/benchmark/src/CMakeFiles/install/local.dir
-/home/leeweihan/Desktop/range proof/build/depends/benchmark/src/CMakeFiles/install/strip.dir
-/home/leeweihan/Desktop/range proof/build/depends/libff/CMakeFiles/test.dir
-/home/leeweihan/Desktop/range proof/build/depends/libff/CMakeFiles/edit_cache.dir
-/home/leeweihan/Desktop/range proof/build/depends/libff/CMakeFiles/rebuild_cache.dir
-/home/leeweihan/Desktop/range proof/build/depends/libff/CMakeFiles/list_install_components.dir
-/home/leeweihan/Desktop/range proof/build/depends/libff/CMakeFiles/install.dir
-/home/leeweihan/Desktop/range proof/build/depends/libff/CMakeFiles/install/local.dir
-/home/leeweihan/Desktop/range proof/build/depends/libff/CMakeFiles/install/strip.dir
-/home/leeweihan/Desktop/range proof/build/depends/libff/libff/CMakeFiles/ff.dir
-/home/leeweihan/Desktop/range proof/build/depends/libff/libff/CMakeFiles/test.dir
-/home/leeweihan/Desktop/range proof/build/depends/libff/libff/CMakeFiles/edit_cache.dir
-/home/leeweihan/Desktop/range proof/build/depends/libff/libff/CMakeFiles/rebuild_cache.dir
-/home/leeweihan/Desktop/range proof/build/depends/libff/libff/CMakeFiles/list_install_components.dir
-/home/leeweihan/Desktop/range proof/build/depends/libff/libff/CMakeFiles/install.dir
-/home/leeweihan/Desktop/range proof/build/depends/libff/libff/CMakeFiles/install/local.dir
-/home/leeweihan/Desktop/range proof/build/depends/libff/libff/CMakeFiles/install/strip.dir
-/home/leeweihan/Desktop/range proof/build/depends/libfqfft/CMakeFiles/test.dir
-/home/leeweihan/Desktop/range proof/build/depends/libfqfft/CMakeFiles/edit_cache.dir
-/home/leeweihan/Desktop/range proof/build/depends/libfqfft/CMakeFiles/rebuild_cache.dir
-/home/leeweihan/Desktop/range proof/build/depends/libfqfft/CMakeFiles/list_install_components.dir
-/home/leeweihan/Desktop/range proof/build/depends/libfqfft/CMakeFiles/install.dir
-/home/leeweihan/Desktop/range proof/build/depends/libfqfft/CMakeFiles/install/local.dir
-/home/leeweihan/Desktop/range proof/build/depends/libfqfft/CMakeFiles/install/strip.dir
-/home/leeweihan/Desktop/range proof/build/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir
-/home/leeweihan/Desktop/range proof/build/depends/libfqfft/tutorials/CMakeFiles/polynomial_evaluation.dir
-/home/leeweihan/Desktop/range proof/build/depends/libfqfft/tutorials/CMakeFiles/lagrange_polynomial_evaluation.dir
-/home/leeweihan/Desktop/range proof/build/depends/libfqfft/tutorials/CMakeFiles/test.dir
-/home/leeweihan/Desktop/range proof/build/depends/libfqfft/tutorials/CMakeFiles/edit_cache.dir
-/home/leeweihan/Desktop/range proof/build/depends/libfqfft/tutorials/CMakeFiles/rebuild_cache.dir
-/home/leeweihan/Desktop/range proof/build/depends/libfqfft/tutorials/CMakeFiles/list_install_components.dir
-/home/leeweihan/Desktop/range proof/build/depends/libfqfft/tutorials/CMakeFiles/install.dir
-/home/leeweihan/Desktop/range proof/build/depends/libfqfft/tutorials/CMakeFiles/install/local.dir
-/home/leeweihan/Desktop/range proof/build/depends/libfqfft/tutorials/CMakeFiles/install/strip.dir
-/home/leeweihan/Desktop/range proof/build/range_proof/CMakeFiles/range_proof.dir
-/home/leeweihan/Desktop/range proof/build/range_proof/CMakeFiles/test_merkleTree.dir
-/home/leeweihan/Desktop/range proof/build/range_proof/CMakeFiles/test_fri.dir
-/home/leeweihan/Desktop/range proof/build/range_proof/CMakeFiles/test_rangeproof.dir
-/home/leeweihan/Desktop/range proof/build/range_proof/CMakeFiles/test_payment_check.dir
-/home/leeweihan/Desktop/range proof/build/range_proof/CMakeFiles/test_rangeproof_proveable.dir
-/home/leeweihan/Desktop/range proof/build/range_proof/CMakeFiles/test_rangeproof_arbitrary.dir
-/home/leeweihan/Desktop/range proof/build/range_proof/CMakeFiles/test.dir
-/home/leeweihan/Desktop/range proof/build/range_proof/CMakeFiles/edit_cache.dir
-/home/leeweihan/Desktop/range proof/build/range_proof/CMakeFiles/rebuild_cache.dir
-/home/leeweihan/Desktop/range proof/build/range_proof/CMakeFiles/list_install_components.dir
-/home/leeweihan/Desktop/range proof/build/range_proof/CMakeFiles/install.dir
-/home/leeweihan/Desktop/range proof/build/range_proof/CMakeFiles/install/local.dir
-/home/leeweihan/Desktop/range proof/build/range_proof/CMakeFiles/install/strip.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/CMakeFiles/list_install_components.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/CMakeFiles/install.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/CMakeFiles/rebuild_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/CMakeFiles/edit_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/CMakeFiles/install/strip.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/CMakeFiles/install/local.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/CMakeFiles/check.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/CMakeFiles/test.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/CMakeFiles/list_install_components.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/CMakeFiles/install.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/CMakeFiles/rebuild_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/CMakeFiles/edit_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/CMakeFiles/install/strip.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/CMakeFiles/install/local.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/CMakeFiles/zm.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/CMakeFiles/test.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/CMakeFiles/list_install_components.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/CMakeFiles/install.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/CMakeFiles/rebuild_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/CMakeFiles/install/strip.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/CMakeFiles/install/local.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/CMakeFiles/test.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/CMakeFiles/edit_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/googlemock/CMakeFiles/list_install_components.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/googlemock/CMakeFiles/install.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/googlemock/CMakeFiles/rebuild_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/googlemock/CMakeFiles/test.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/googlemock/CMakeFiles/edit_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/googlemock/CMakeFiles/gmock.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/googlemock/CMakeFiles/gmock_main.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/googlemock/CMakeFiles/install/strip.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/googlemock/CMakeFiles/install/local.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/googlemock/gtest/CMakeFiles/list_install_components.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/googlemock/gtest/CMakeFiles/install.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/googlemock/gtest/CMakeFiles/edit_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/googlemock/gtest/CMakeFiles/test.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/googlemock/gtest/CMakeFiles/rebuild_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/googlemock/gtest/CMakeFiles/gtest.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/googlemock/gtest/CMakeFiles/install/strip.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/gtest/googlemock/gtest/CMakeFiles/install/local.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/benchmark/CMakeFiles/list_install_components.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/benchmark/CMakeFiles/install.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/benchmark/CMakeFiles/rebuild_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/benchmark/CMakeFiles/install/strip.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/benchmark/CMakeFiles/install/local.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/benchmark/CMakeFiles/test.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/benchmark/CMakeFiles/edit_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/benchmark/src/CMakeFiles/list_install_components.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/benchmark/src/CMakeFiles/install.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/benchmark/src/CMakeFiles/rebuild_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/benchmark/src/CMakeFiles/edit_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/benchmark/src/CMakeFiles/benchmark.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/benchmark/src/CMakeFiles/install/strip.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/benchmark/src/CMakeFiles/install/local.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/benchmark/src/CMakeFiles/test.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libff/CMakeFiles/list_install_components.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libff/CMakeFiles/install.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libff/CMakeFiles/rebuild_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libff/CMakeFiles/install/strip.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libff/CMakeFiles/install/local.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libff/CMakeFiles/test.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libff/CMakeFiles/edit_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libff/libff/CMakeFiles/list_install_components.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libff/libff/CMakeFiles/install.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libff/libff/CMakeFiles/rebuild_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libff/libff/CMakeFiles/edit_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libff/libff/CMakeFiles/ff.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libff/libff/CMakeFiles/install/strip.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libff/libff/CMakeFiles/install/local.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libff/libff/CMakeFiles/test.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libfqfft/CMakeFiles/list_install_components.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libfqfft/CMakeFiles/install.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libfqfft/CMakeFiles/rebuild_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libfqfft/CMakeFiles/install/strip.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libfqfft/CMakeFiles/install/local.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libfqfft/CMakeFiles/test.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libfqfft/CMakeFiles/edit_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libfqfft/tutorials/CMakeFiles/list_install_components.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libfqfft/tutorials/CMakeFiles/install.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libfqfft/tutorials/CMakeFiles/rebuild_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libfqfft/tutorials/CMakeFiles/edit_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libfqfft/tutorials/CMakeFiles/test.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libfqfft/tutorials/CMakeFiles/polynomial_evaluation.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libfqfft/tutorials/CMakeFiles/lagrange_polynomial_evaluation.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libfqfft/tutorials/CMakeFiles/install/local.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libfqfft/tutorials/CMakeFiles/polynomial_multiplication.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/depends/libfqfft/tutorials/CMakeFiles/install/strip.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/range_proof/CMakeFiles/install.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/range_proof/CMakeFiles/test_rangeproof.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/range_proof/CMakeFiles/edit_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/range_proof/CMakeFiles/test_rangeproof_arbitrary.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/range_proof/CMakeFiles/test_merkleTree.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/range_proof/CMakeFiles/test_payment_check.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/range_proof/CMakeFiles/test_rangeproof_proveable.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/range_proof/CMakeFiles/rebuild_cache.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/range_proof/CMakeFiles/range_proof.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/range_proof/CMakeFiles/list_install_components.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/range_proof/CMakeFiles/install/strip.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/range_proof/CMakeFiles/test_fri.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/range_proof/CMakeFiles/install/local.dir
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/build/range_proof/CMakeFiles/test.dir

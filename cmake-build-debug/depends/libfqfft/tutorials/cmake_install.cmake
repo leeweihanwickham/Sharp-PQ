@@ -1,4 +1,4 @@
-# Install script for directory: /home/leeweihan/Desktop/range proof/depends/libfqfft/tutorials
+# Install script for directory: /home/leeweihan/Desktop/Sharp-PQ/depends/libfqfft/tutorials
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

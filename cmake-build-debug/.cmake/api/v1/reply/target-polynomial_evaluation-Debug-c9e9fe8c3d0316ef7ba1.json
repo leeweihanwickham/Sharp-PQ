@@ -1,0 +1,229 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "depends/libfqfft/tutorials/polynomial_evaluation"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"depends/libfqfft/tutorials/CMakeLists.txt",
+			"depends/libff/libff/CMakeLists.txt",
+			"CMakeLists.txt",
+			"depends/CMakeLists.txt",
+			"depends/libfqfft/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 71,
+				"parent" : 3
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 158,
+				"parent" : 5
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 7,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 8,
+				"parent" : 7
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 104,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -pthread -ggdb3 -O3 -march=native -mtune=native -g -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "NO_PROCPS"
+				},
+				{
+					"define" : "USE_ASM"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/leeweihan/Desktop/Sharp-PQ/."
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/leeweihan/Desktop/Sharp-PQ/depends/ate-pairing/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/leeweihan/Desktop/Sharp-PQ/depends/xbyak"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/leeweihan/Desktop/Sharp-PQ/depends/libfqfft/."
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/leeweihan/Desktop/Sharp-PQ/depends/libfqfft/depends/libff"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/leeweihan/Desktop/Sharp-PQ/depends/libff/libff/.."
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "zm::@05580b4f71fb7a9b3a7c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ff::@ad62b5c0e09ee7694c21"
+		}
+	],
+	"id" : "polynomial_evaluation::@722095a8fd174a78d360",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1 -std=c++11 -Wall -Wextra -Wfatal-errors -pthread -ggdb3 -O3 -march=native -mtune=native -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../libff/libff/libff.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgmp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../../libzm.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lsodium",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "polynomial_evaluation",
+	"nameOnDisk" : "polynomial_evaluation",
+	"paths" : 
+	{
+		"build" : "depends/libfqfft/tutorials",
+		"source" : "depends/libfqfft/tutorials"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "depends/libfqfft/tutorials/polynomial_evaluation_example.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

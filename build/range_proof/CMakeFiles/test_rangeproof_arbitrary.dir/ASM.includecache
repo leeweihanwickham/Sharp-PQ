@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/leeweihan/Desktop/range proof/range_proof/bcs/BLAKE3/blake3_avx2_x86-64_unix.S
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/range_proof/bcs/BLAKE3/blake3_avx2_x86-64_unix.S
 cet.h
 -
 
-/home/leeweihan/Desktop/range proof/range_proof/bcs/BLAKE3/blake3_avx512_x86-64_unix.S
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/range_proof/bcs/BLAKE3/blake3_avx512_x86-64_unix.S
 cet.h
 -
 
-/home/leeweihan/Desktop/range proof/range_proof/bcs/BLAKE3/blake3_sse2_x86-64_unix.S
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/range_proof/bcs/BLAKE3/blake3_sse2_x86-64_unix.S
 cet.h
 -
 
-/home/leeweihan/Desktop/range proof/range_proof/bcs/BLAKE3/blake3_sse41_x86-64_unix.S
+/home/leeweihan/Desktop/sharp-pq/Sharp-PQ/range_proof/bcs/BLAKE3/blake3_sse41_x86-64_unix.S
 cet.h
 -
 

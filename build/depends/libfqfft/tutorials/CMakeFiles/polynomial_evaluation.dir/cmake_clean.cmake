@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/polynomial_evaluation.dir/polynomial_evaluation_example.cpp.o"
-  "CMakeFiles/polynomial_evaluation.dir/polynomial_evaluation_example.cpp.o.d"
-  "polynomial_evaluation"
   "polynomial_evaluation.pdb"
+  "polynomial_evaluation"
 )
 
 # Per-language clean rules from dependency scanning.

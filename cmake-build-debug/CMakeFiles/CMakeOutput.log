@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/leeweihan/Desktop/range proof/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,20 +23,23 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/leeweihan/Desktop/range proof/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/a.out"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/leeweihan/Desktop/range proof/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/leeweihan/Desktop/clion-2022.2.4/bin/ninja/linux/ninja cmTC_1689e && [1/2] Building C object CMakeFiles/cmTC_1689e.dir/CMakeCCompilerABI.c.o
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f809b/fast && /usr/bin/make  -f CMakeFiles/cmTC_f809b.dir/build.make CMakeFiles/cmTC_f809b.dir/build
+make[1]: Entering directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f809b.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_f809b.dir/CMakeCCompilerABI.c.o -c /home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 Target: x86_64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1689e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/leeweihan/Desktop/clion-2022.2.4/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1689e.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccTEZ7v6.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f809b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f809b.dir/CMakeCCompilerABI.c.o -version -fdiagnostics-color=always -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccMCOYGa.s
 GNU C11 (Ubuntu 5.4.0-6ubuntu1~16.04.12) version 5.4.0 20160609 (x86_64-linux-gnu)
 	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -54,13 +57,15 @@ GNU C11 (Ubuntu 5.4.0-6ubuntu1~16.04.12) version 5.4.0 20160609 (x86_64-linux-gn
 	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 8087146d2ee737d238113fb57fabb1f2
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1689e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_1689e.dir/CMakeCCompilerABI.c.o /tmp/ccTEZ7v6.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f809b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_f809b.dir/CMakeCCompilerABI.c.o /tmp/ccMCOYGa.s
 GNU assembler version 2.26.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1689e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-[2/2] Linking C executable cmTC_1689e
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f809b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_f809b
+/home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f809b.dir/link.txt --verbose=1
+/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_f809b.dir/CMakeCCompilerABI.c.o -o cmTC_f809b 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -70,8 +75,9 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1689e' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDEY164.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_1689e /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_1689e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f809b' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccx9Tc8j.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f809b /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_f809b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
@@ -94,17 +100,20 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/leeweihan/Desktop/range proof/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/home/leeweihan/Desktop/clion-2022.2.4/bin/ninja/linux/ninja cmTC_1689e && [1/2] Building C object CMakeFiles/cmTC_1689e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_f809b/fast && /usr/bin/make  -f CMakeFiles/cmTC_f809b.dir/build.make CMakeFiles/cmTC_f809b.dir/build]
+  ignore line: [make[1]: Entering directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f809b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_f809b.dir/CMakeCCompilerABI.c.o -c /home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [Target: x86_64-linux-gnu]
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c ada c++ java go d fortran objc obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1689e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/5/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/leeweihan/Desktop/clion-2022.2.4/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1689e.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccTEZ7v6.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f809b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/5/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f809b.dir/CMakeCCompilerABI.c.o -version -fdiagnostics-color=always -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccMCOYGa.s]
   ignore line: [GNU C11 (Ubuntu 5.4.0-6ubuntu1~16.04.12) version 5.4.0 20160609 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -122,13 +131,15 @@ Parsed C implicit link information from above output:
   ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 8087146d2ee737d238113fb57fabb1f2]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1689e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_1689e.dir/CMakeCCompilerABI.c.o /tmp/ccTEZ7v6.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f809b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_f809b.dir/CMakeCCompilerABI.c.o /tmp/ccMCOYGa.s]
   ignore line: [GNU assembler version 2.26.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1689e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [[2/2] Linking C executable cmTC_1689e]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f809b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_f809b]
+  ignore line: [/home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f809b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_f809b.dir/CMakeCCompilerABI.c.o -o cmTC_f809b ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -138,13 +149,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1689e' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDEY164.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_1689e /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_1689e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_f809b' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccx9Tc8j.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_f809b /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_f809b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccDEY164.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccx9Tc8j.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -162,7 +173,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_1689e] ==> ignore
+    arg [cmTC_f809b] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o]
@@ -174,7 +185,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_1689e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_f809b.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -204,17 +215,20 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/leeweihan/Desktop/range proof/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/leeweihan/Desktop/clion-2022.2.4/bin/ninja/linux/ninja cmTC_731ec && [1/2] Building CXX object CMakeFiles/cmTC_731ec.dir/CMakeCXXCompilerABI.cpp.o
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cefd4/fast && /usr/bin/make  -f CMakeFiles/cmTC_cefd4.dir/build.make CMakeFiles/cmTC_cefd4.dir/build
+make[1]: Entering directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cefd4.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_cefd4.dir/CMakeCXXCompilerABI.cpp.o -c /home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 Target: x86_64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_731ec.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/leeweihan/Desktop/clion-2022.2.4/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_731ec.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc7i4xa7.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_cefd4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_cefd4.dir/CMakeCXXCompilerABI.cpp.o -version -fdiagnostics-color=always -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc6SV4Xz.s
 GNU C++ (Ubuntu 5.4.0-6ubuntu1~16.04.12) version 5.4.0 20160609 (x86_64-linux-gnu)
 	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -236,13 +250,15 @@ GNU C++ (Ubuntu 5.4.0-6ubuntu1~16.04.12) version 5.4.0 20160609 (x86_64-linux-gn
 	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 85af4995304287cdd19cfa43cf5d6cf1
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_731ec.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_731ec.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc7i4xa7.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_cefd4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_cefd4.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc6SV4Xz.s
 GNU assembler version 2.26.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_731ec.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-[2/2] Linking CXX executable cmTC_731ec
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_cefd4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_cefd4
+/home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cefd4.dir/link.txt --verbose=1
+/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_cefd4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_cefd4 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -252,8 +268,9 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_731ec' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZipxea.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_731ec /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_731ec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cefd4' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLmNePG.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_cefd4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_cefd4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
@@ -282,17 +299,20 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/leeweihan/Desktop/range proof/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/home/leeweihan/Desktop/clion-2022.2.4/bin/ninja/linux/ninja cmTC_731ec && [1/2] Building CXX object CMakeFiles/cmTC_731ec.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_cefd4/fast && /usr/bin/make  -f CMakeFiles/cmTC_cefd4.dir/build.make CMakeFiles/cmTC_cefd4.dir/build]
+  ignore line: [make[1]: Entering directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_cefd4.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_cefd4.dir/CMakeCXXCompilerABI.cpp.o -c /home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [Target: x86_64-linux-gnu]
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c ada c++ java go d fortran objc obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_731ec.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/5/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/leeweihan/Desktop/clion-2022.2.4/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_731ec.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc7i4xa7.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_cefd4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/5/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_cefd4.dir/CMakeCXXCompilerABI.cpp.o -version -fdiagnostics-color=always -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc6SV4Xz.s]
   ignore line: [GNU C++ (Ubuntu 5.4.0-6ubuntu1~16.04.12) version 5.4.0 20160609 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -314,13 +334,15 @@ Parsed CXX implicit link information from above output:
   ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 85af4995304287cdd19cfa43cf5d6cf1]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_731ec.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_731ec.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc7i4xa7.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_cefd4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_cefd4.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc6SV4Xz.s]
   ignore line: [GNU assembler version 2.26.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_731ec.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [[2/2] Linking CXX executable cmTC_731ec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_cefd4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_cefd4]
+  ignore line: [/home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cefd4.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_cefd4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_cefd4 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -330,13 +352,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_731ec' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZipxea.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_731ec /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_731ec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cefd4' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLmNePG.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_cefd4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_cefd4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccZipxea.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccLmNePG.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -354,7 +376,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_731ec] ==> ignore
+    arg [cmTC_cefd4] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o]
@@ -366,7 +388,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_731ec.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_cefd4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -393,131 +415,215 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
-Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/leeweihan/Desktop/range proof/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/home/leeweihan/Desktop/clion-2022.2.4/bin/ninja/linux/ninja cmTC_3d03f && [1/2] Building C object CMakeFiles/cmTC_3d03f.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_3d03f
-
-
-
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_STD_CXX11 succeeded with the following output:
-Change Dir: /home/leeweihan/Desktop/range proof/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/leeweihan/Desktop/clion-2022.2.4/bin/ninja/linux/ninja cmTC_01055 && [1/2] Building CXX object CMakeFiles/cmTC_01055.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_01055
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_706d7/fast && /usr/bin/make  -f CMakeFiles/cmTC_706d7.dir/build.make CMakeFiles/cmTC_706d7.dir/build
+make[1]: Entering directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_706d7.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_STD_CXX11  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11 -fdiagnostics-color=always   -std=c++11 -o CMakeFiles/cmTC_706d7.dir/src.cxx.o -c /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_706d7
+/home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_706d7.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11 -rdynamic CMakeFiles/cmTC_706d7.dir/src.cxx.o -o cmTC_706d7 
+make[1]: Leaving directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
-Change Dir: /home/leeweihan/Desktop/range proof/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/leeweihan/Desktop/clion-2022.2.4/bin/ninja/linux/ninja cmTC_f5501 && [1/2] Building CXX object CMakeFiles/cmTC_f5501.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_f5501
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_619b3/fast && /usr/bin/make  -f CMakeFiles/cmTC_619b3.dir/build.make CMakeFiles/cmTC_619b3.dir/build
+make[1]: Entering directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_619b3.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall -fdiagnostics-color=always   -Wall -o CMakeFiles/cmTC_619b3.dir/src.cxx.o -c /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_619b3
+/home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_619b3.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall -rdynamic CMakeFiles/cmTC_619b3.dir/src.cxx.o -o cmTC_619b3 
+make[1]: Leaving directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
-Change Dir: /home/leeweihan/Desktop/range proof/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/leeweihan/Desktop/clion-2022.2.4/bin/ninja/linux/ninja cmTC_aab16 && [1/2] Building CXX object CMakeFiles/cmTC_aab16.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_aab16
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b60b4/fast && /usr/bin/make  -f CMakeFiles/cmTC_b60b4.dir/build.make CMakeFiles/cmTC_b60b4.dir/build
+make[1]: Entering directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b60b4.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra -fdiagnostics-color=always   -Wextra -o CMakeFiles/cmTC_b60b4.dir/src.cxx.o -c /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b60b4
+/home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b60b4.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra -rdynamic CMakeFiles/cmTC_b60b4.dir/src.cxx.o -o cmTC_b60b4 
+make[1]: Leaving directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
-Change Dir: /home/leeweihan/Desktop/range proof/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/leeweihan/Desktop/clion-2022.2.4/bin/ninja/linux/ninja cmTC_8ff1f && [1/2] Building CXX object CMakeFiles/cmTC_8ff1f.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_8ff1f
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7d660/fast && /usr/bin/make  -f CMakeFiles/cmTC_7d660.dir/build.make CMakeFiles/cmTC_7d660.dir/build
+make[1]: Entering directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7d660.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow -fdiagnostics-color=always   -Wshadow -o CMakeFiles/cmTC_7d660.dir/src.cxx.o -c /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7d660
+/home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d660.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow -rdynamic CMakeFiles/cmTC_7d660.dir/src.cxx.o -o cmTC_7d660 
+make[1]: Leaving directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WERROR succeeded with the following output:
-Change Dir: /home/leeweihan/Desktop/range proof/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/leeweihan/Desktop/clion-2022.2.4/bin/ninja/linux/ninja cmTC_d744e && [1/2] Building CXX object CMakeFiles/cmTC_d744e.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_d744e
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_eca85/fast && /usr/bin/make  -f CMakeFiles/cmTC_eca85.dir/build.make CMakeFiles/cmTC_eca85.dir/build
+make[1]: Entering directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eca85.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -Werror -fdiagnostics-color=always   -Werror -o CMakeFiles/cmTC_eca85.dir/src.cxx.o -c /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_eca85
+/home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eca85.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -Werror -rdynamic CMakeFiles/cmTC_eca85.dir/src.cxx.o -o cmTC_eca85 
+make[1]: Leaving directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC succeeded with the following output:
-Change Dir: /home/leeweihan/Desktop/range proof/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/leeweihan/Desktop/clion-2022.2.4/bin/ninja/linux/ninja cmTC_e0c64 && [1/2] Building CXX object CMakeFiles/cmTC_e0c64.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_e0c64
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_90549/fast && /usr/bin/make  -f CMakeFiles/cmTC_90549.dir/build.make CMakeFiles/cmTC_90549.dir/build
+make[1]: Entering directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_90549.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic -fdiagnostics-color=always   -pedantic -o CMakeFiles/cmTC_90549.dir/src.cxx.o -c /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_90549
+/home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90549.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic -rdynamic CMakeFiles/cmTC_90549.dir/src.cxx.o -o cmTC_90549 
+make[1]: Leaving directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC_ERRORS succeeded with the following output:
-Change Dir: /home/leeweihan/Desktop/range proof/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/leeweihan/Desktop/clion-2022.2.4/bin/ninja/linux/ninja cmTC_c8f23 && [1/2] Building CXX object CMakeFiles/cmTC_c8f23.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_c8f23
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fad27/fast && /usr/bin/make  -f CMakeFiles/cmTC_fad27.dir/build.make CMakeFiles/cmTC_fad27.dir/build
+make[1]: Entering directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fad27.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -fdiagnostics-color=always   -pedantic-errors -o CMakeFiles/cmTC_fad27.dir/src.cxx.o -c /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fad27
+/home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fad27.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -rdynamic CMakeFiles/cmTC_fad27.dir/src.cxx.o -o cmTC_fad27 
+make[1]: Leaving directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WFLOAT_EQUAL succeeded with the following output:
-Change Dir: /home/leeweihan/Desktop/range proof/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/leeweihan/Desktop/clion-2022.2.4/bin/ninja/linux/ninja cmTC_24116 && [1/2] Building CXX object CMakeFiles/cmTC_24116.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_24116
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b400f/fast && /usr/bin/make  -f CMakeFiles/cmTC_b400f.dir/build.make CMakeFiles/cmTC_b400f.dir/build
+make[1]: Entering directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b400f.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal -fdiagnostics-color=always   -Wfloat-equal -o CMakeFiles/cmTC_b400f.dir/src.cxx.o -c /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b400f
+/home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b400f.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal -rdynamic CMakeFiles/cmTC_b400f.dir/src.cxx.o -o cmTC_b400f 
+make[1]: Leaving directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
-Change Dir: /home/leeweihan/Desktop/range proof/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/leeweihan/Desktop/clion-2022.2.4/bin/ninja/linux/ninja cmTC_d6bd3 && [1/2] Building CXX object CMakeFiles/cmTC_d6bd3.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_d6bd3
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_21051/fast && /usr/bin/make  -f CMakeFiles/cmTC_21051.dir/build.make CMakeFiles/cmTC_21051.dir/build
+make[1]: Entering directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_21051.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing -fdiagnostics-color=always   -fstrict-aliasing -o CMakeFiles/cmTC_21051.dir/src.cxx.o -c /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_21051
+/home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21051.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing -rdynamic CMakeFiles/cmTC_21051.dir/src.cxx.o -o cmTC_21051 
+make[1]: Leaving directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
-Change Dir: /home/leeweihan/Desktop/range proof/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/leeweihan/Desktop/clion-2022.2.4/bin/ninja/linux/ninja cmTC_2e600 && [1/2] Building CXX object CMakeFiles/cmTC_2e600.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_2e600
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ffbd5/fast && /usr/bin/make  -f CMakeFiles/cmTC_ffbd5.dir/build.make CMakeFiles/cmTC_ffbd5.dir/build
+make[1]: Entering directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ffbd5.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing -fdiagnostics-color=always   -Wstrict-aliasing -o CMakeFiles/cmTC_ffbd5.dir/src.cxx.o -c /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ffbd5
+/home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffbd5.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing -rdynamic CMakeFiles/cmTC_ffbd5.dir/src.cxx.o -o cmTC_ffbd5 
+make[1]: Leaving directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WINVALID_OFFSETOF succeeded with the following output:
-Change Dir: /home/leeweihan/Desktop/range proof/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/leeweihan/Desktop/clion-2022.2.4/bin/ninja/linux/ninja cmTC_efdb8 && [1/2] Building CXX object CMakeFiles/cmTC_efdb8.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_efdb8
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_81409/fast && /usr/bin/make  -f CMakeFiles/cmTC_81409.dir/build.make CMakeFiles/cmTC_81409.dir/build
+make[1]: Entering directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_81409.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WINVALID_OFFSETOF  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing  -Werror -Winvalid-offsetof -fdiagnostics-color=always   -Winvalid-offsetof -o CMakeFiles/cmTC_81409.dir/src.cxx.o -c /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_81409
+/home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81409.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing  -Werror -Winvalid-offsetof -rdynamic CMakeFiles/cmTC_81409.dir/src.cxx.o -o cmTC_81409 
+make[1]: Leaving directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_INVALID_OFFSETOF succeeded with the following output:
-Change Dir: /home/leeweihan/Desktop/range proof/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/leeweihan/Desktop/clion-2022.2.4/bin/ninja/linux/ninja cmTC_7856b && [1/2] Building CXX object CMakeFiles/cmTC_7856b.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_7856b
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8887f/fast && /usr/bin/make  -f CMakeFiles/cmTC_8887f.dir/build.make CMakeFiles/cmTC_8887f.dir/build
+make[1]: Entering directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8887f.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WNO_INVALID_OFFSETOF  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing  -Wno-invalid-offsetof -fdiagnostics-color=always   -Wno-invalid-offsetof -o CMakeFiles/cmTC_8887f.dir/src.cxx.o -c /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8887f
+/home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8887f.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing  -Wno-invalid-offsetof -rdynamic CMakeFiles/cmTC_8887f.dir/src.cxx.o -o cmTC_8887f 
+make[1]: Leaving directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
-Change Dir: /home/leeweihan/Desktop/range proof/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/leeweihan/Desktop/clion-2022.2.4/bin/ninja/linux/ninja cmTC_3bbab && [1/2] Building CXX object CMakeFiles/cmTC_3bbab.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_3bbab
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0bbc3/fast && /usr/bin/make  -f CMakeFiles/cmTC_0bbc3.dir/build.make CMakeFiles/cmTC_0bbc3.dir/build
+make[1]: Entering directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0bbc3.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing  -Wno-invalid-offsetof  --coverage -fdiagnostics-color=always   --coverage -o CMakeFiles/cmTC_0bbc3.dir/src.cxx.o -c /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0bbc3
+/home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bbc3.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++14 -Wall -Wextra -Wfatal-errors -Wno-sign-compare -Wno-shadow -Wno-unused-variable -Wno-unused-parameter -L/usr/local/lib -ggdb3 -O3 -march=native -mtune=native -Wno-unused-but-set-variable -mpclmul -msse4.1  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -Wfloat-equal  -fstrict-aliasing  -Wstrict-aliasing  -Wno-invalid-offsetof  --coverage -rdynamic CMakeFiles/cmTC_0bbc3.dir/src.cxx.o -o cmTC_0bbc3 
+make[1]: Leaving directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main() { return 0; }
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c5764/fast && /usr/bin/make  -f CMakeFiles/cmTC_c5764.dir/build.make CMakeFiles/cmTC_c5764.dir/build
+make[1]: Entering directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5764.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fdiagnostics-color=always -o CMakeFiles/cmTC_c5764.dir/CheckFunctionExists.c.o -c /home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/share/cmake-3.24/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c5764
+/home/leeweihan/Downloads/clion-2022.3.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5764.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_c5764.dir/CheckFunctionExists.c.o -o cmTC_c5764  -lpthread 
+make[1]: Leaving directory '/home/leeweihan/Desktop/Sharp-PQ/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
 Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
 cc (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609
 Copyright (C) 2015 Free Software Foundation, Inc.
