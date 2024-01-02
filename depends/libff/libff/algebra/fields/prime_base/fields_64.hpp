@@ -1,9 +1,7 @@
 /**@file
 *****************************************************************************
 field for p = 2^^64 - 2^^32 + 1
- This file is part of "A Succinct and Efficient Range Proof with More Functionalities based on Interactive Oracle Proof"
-*****************************************************************************
-* @author
+ This file is part of "Sharp-PQ"
 *****************************************************************************/
 
 #ifndef FIELDS_64_HPP

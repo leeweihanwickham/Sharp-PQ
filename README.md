@@ -1,14 +1,13 @@
 # Sharp-PQ: Succinct Hash-based Arbitrary-Range Proof
 
 This is the implementation of Sharp-PQ: Succinct Hash-based Arbitrary-Range Proof.
-It has the following properties:
+It has the following advantages:
 
-- **Flexibility.** It is a range proof supporting batch processing and arbitrary ranges.
+- **Flexibility.** It is a range proof supporting batch processing, arbitrary-based ranges and arbitrary ranges.
 - **Security.**  It is transparent and plausible post-quantum secure based on interactive oracle proof. 
 It is provable secure in the random oracle model.
-- **Performance.** It has poly-logarithmic communication complexity and verifier complexity. It only uses
-  Reed-Solomon codes and hash functions without public-key cryptographic
-  operations.
+- **Performance.** It has poly-logarithmic proof size and linear verifier complexity.
+It features non-trvial proof size and verifier complexity for batch proof.
 
 
 This repository refers to [libff](https://github.com/scipr-lab/libff) for the framework
@@ -22,7 +21,7 @@ use [BLAKE3](https://github.com/BLAKE3-team/BLAKE3-specs/blob/master/blake3.pdf)
 The range proofs are all in [range_proof/tests](range_proof/tests). Run `test_rangeproof.cpp` for (batch) range proofs for fixed ranges in the conjecture setting.
 Run `test_rangeproof_arbitrary.cpp` for (batch) range proofs for arbitrary ranges in the conjecture setting.
 Run `test_rangeproof_proveable.cpp` for (batch) range proofs for fixed ranges in the proveable setting. We currently only
-support ranges where the base is 2. For the evaluation of applications like confidential transactions and anonymous auctions, see `test_payment_check.cpp`.
+support ranges where the base is 2. For the balance proof applied in confidential transactions, see `test_payment_check.cpp`.
 
 Parameters such as instance number, security level, range dimension,
 localization array, code rate are all adjustable.

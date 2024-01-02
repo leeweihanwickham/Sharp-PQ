@@ -1,7 +1,7 @@
 range_proof/CMakeFiles/range_proof.dir/common/common.cpp.o: \
- /home/leeweihan/Desktop/sharp-pq/Sharp-PQ/range_proof/common/common.cpp \
+ /home/leeweihan/Desktop/Sharp-PQ/range_proof/common/common.cpp \
  /usr/include/stdc-predef.h \
- /home/leeweihan/Desktop/sharp-pq/Sharp-PQ/./range_proof/common/common.hpp \
+ /home/leeweihan/Desktop/Sharp-PQ/./range_proof/common/common.hpp \
  /usr/include/c++/5/cstddef \
  /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/os_defines.h \

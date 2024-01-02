@@ -1,5 +1,5 @@
 range_proof/CMakeFiles/test_rangeproof.dir/bcs/BLAKE3/blake3_dispatch.c.o: \
- /home/leeweihan/Desktop/sharp-pq/Sharp-PQ/range_proof/bcs/BLAKE3/blake3_dispatch.c \
+ /home/leeweihan/Desktop/Sharp-PQ/range_proof/bcs/BLAKE3/blake3_dispatch.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h \
@@ -9,9 +9,9 @@ range_proof/CMakeFiles/test_rangeproof.dir/bcs/BLAKE3/blake3_dispatch.c.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /home/leeweihan/Desktop/sharp-pq/Sharp-PQ/range_proof/bcs/BLAKE3/blake3_impl.h \
+ /home/leeweihan/Desktop/Sharp-PQ/range_proof/bcs/BLAKE3/blake3_impl.h \
  /usr/include/assert.h /usr/include/string.h /usr/include/xlocale.h \
- /home/leeweihan/Desktop/sharp-pq/Sharp-PQ/range_proof/bcs/BLAKE3/blake3.h \
+ /home/leeweihan/Desktop/Sharp-PQ/range_proof/bcs/BLAKE3/blake3.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/immintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/mmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/xmmintrin.h \

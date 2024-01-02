@@ -1,8 +1,8 @@
 depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.o: \
- /home/leeweihan/Desktop/sharp-pq/Sharp-PQ/depends/libff/libff/algebra/curves/mnt/mnt46_common.cpp \
+ /home/leeweihan/Desktop/Sharp-PQ/depends/libff/libff/algebra/curves/mnt/mnt46_common.cpp \
  /usr/include/stdc-predef.h \
- /home/leeweihan/Desktop/sharp-pq/Sharp-PQ/depends/libff/libff/../libff/algebra/curves/mnt/mnt46_common.hpp \
- /home/leeweihan/Desktop/sharp-pq/Sharp-PQ/depends/libff/libff/../libff/algebra/field_utils/bigint.hpp \
+ /home/leeweihan/Desktop/Sharp-PQ/depends/libff/libff/../libff/algebra/curves/mnt/mnt46_common.hpp \
+ /home/leeweihan/Desktop/Sharp-PQ/depends/libff/libff/../libff/algebra/field_utils/bigint.hpp \
  /usr/include/c++/5/cstddef \
  /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/os_defines.h \
@@ -115,7 +115,7 @@ depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.o: \
  /usr/include/linux/limits.h \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /home/leeweihan/Desktop/sharp-pq/Sharp-PQ/depends/libff/libff/../libff/common/serialization.hpp \
+ /home/leeweihan/Desktop/Sharp-PQ/depends/libff/libff/../libff/common/serialization.hpp \
  /usr/include/c++/5/map /usr/include/c++/5/bits/stl_tree.h \
  /usr/include/c++/5/ext/aligned_buffer.h \
  /usr/include/c++/5/bits/stl_map.h /usr/include/c++/5/tuple \
@@ -127,12 +127,12 @@ depends/libff/libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.o: \
  /usr/include/c++/5/bits/stl_uninitialized.h \
  /usr/include/c++/5/bits/stl_vector.h \
  /usr/include/c++/5/bits/stl_bvector.h /usr/include/c++/5/bits/vector.tcc \
- /home/leeweihan/Desktop/sharp-pq/Sharp-PQ/depends/libff/libff/../libff/common/serialization.tcc \
+ /home/leeweihan/Desktop/Sharp-PQ/depends/libff/libff/../libff/common/serialization.tcc \
  /usr/include/c++/5/cassert /usr/include/assert.h \
  /usr/include/c++/5/sstream /usr/include/c++/5/bits/sstream.tcc \
- /home/leeweihan/Desktop/sharp-pq/Sharp-PQ/depends/libff/libff/../libff/common/utils.hpp \
- /home/leeweihan/Desktop/sharp-pq/Sharp-PQ/depends/libff/libff/../libff/common/utils.tcc \
- /home/leeweihan/Desktop/sharp-pq/Sharp-PQ/depends/libff/libff/../libff/algebra/field_utils/bigint.tcc \
+ /home/leeweihan/Desktop/Sharp-PQ/depends/libff/libff/../libff/common/utils.hpp \
+ /home/leeweihan/Desktop/Sharp-PQ/depends/libff/libff/../libff/common/utils.tcc \
+ /home/leeweihan/Desktop/Sharp-PQ/depends/libff/libff/../libff/algebra/field_utils/bigint.tcc \
  /usr/include/c++/5/cstring /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/string3.h /usr/include/c++/5/random \
  /usr/include/c++/5/cmath /usr/include/math.h \

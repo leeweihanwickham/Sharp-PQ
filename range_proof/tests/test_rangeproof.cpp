@@ -19,12 +19,15 @@ Range proofs for fixed ranges in the conjecture setting
 #include "range_proof/protocols/ldt/fri/fri_ldt.hpp"
 #include "range_proof/algebra/polynomials/polynomial.hpp"
 #include <sys/time.h>
+#include <libff/algebra/curves/alt_bn128/alt_bn128_pp.hpp>
 
 using namespace range_proof;
 
 int main(){
 
-    typedef libff::Fields_64 FieldT;
+//    typedef libff::Fields_64 FieldT;
+    libff::alt_bn128_pp::init_public_params();
+    typedef libff::alt_bn128_Fr FieldT;
 
     const std::size_t repeat_num = 10;
 

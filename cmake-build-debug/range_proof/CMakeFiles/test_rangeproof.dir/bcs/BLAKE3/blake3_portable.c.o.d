@@ -1,7 +1,7 @@
 range_proof/CMakeFiles/test_rangeproof.dir/bcs/BLAKE3/blake3_portable.c.o: \
- /home/leeweihan/Desktop/sharp-pq/Sharp-PQ/range_proof/bcs/BLAKE3/blake3_portable.c \
+ /home/leeweihan/Desktop/Sharp-PQ/range_proof/bcs/BLAKE3/blake3_portable.c \
  /usr/include/stdc-predef.h \
- /home/leeweihan/Desktop/sharp-pq/Sharp-PQ/range_proof/bcs/BLAKE3/blake3_impl.h \
+ /home/leeweihan/Desktop/Sharp-PQ/range_proof/bcs/BLAKE3/blake3_impl.h \
  /usr/include/assert.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -12,7 +12,7 @@ range_proof/CMakeFiles/test_rangeproof.dir/bcs/BLAKE3/blake3_portable.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/string.h \
  /usr/include/xlocale.h \
- /home/leeweihan/Desktop/sharp-pq/Sharp-PQ/range_proof/bcs/BLAKE3/blake3.h \
+ /home/leeweihan/Desktop/Sharp-PQ/range_proof/bcs/BLAKE3/blake3.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/immintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/mmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/xmmintrin.h \

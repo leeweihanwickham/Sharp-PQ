@@ -1,5 +1,5 @@
 depends/libff/libff/CMakeFiles/ff.dir/common/utils.cpp.o: \
- /home/leeweihan/Desktop/sharp-pq/Sharp-PQ/depends/libff/libff/common/utils.cpp \
+ /home/leeweihan/Desktop/Sharp-PQ/depends/libff/libff/common/utils.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/5/algorithm \
  /usr/include/c++/5/utility \
  /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h \
@@ -167,7 +167,7 @@ depends/libff/libff/CMakeFiles/ff.dir/common/utils.cpp.o: \
  /usr/include/c++/5/bits/random.tcc /usr/include/c++/5/numeric \
  /usr/include/c++/5/bits/stl_numeric.h /usr/include/c++/5/cassert \
  /usr/include/assert.h /usr/include/c++/5/cstdarg \
- /home/leeweihan/Desktop/sharp-pq/Sharp-PQ/depends/libff/libff/../libff/common/utils.hpp \
+ /home/leeweihan/Desktop/Sharp-PQ/depends/libff/libff/../libff/common/utils.hpp \
  /usr/include/c++/5/iostream /usr/include/c++/5/ostream \
  /usr/include/c++/5/ios /usr/include/c++/5/bits/ios_base.h \
  /usr/include/c++/5/bits/locale_classes.h \
@@ -187,4 +187,4 @@ depends/libff/libff/CMakeFiles/ff.dir/common/utils.cpp.o: \
  /usr/include/c++/5/bits/ostream.tcc /usr/include/c++/5/istream \
  /usr/include/c++/5/bits/istream.tcc /usr/include/c++/5/sstream \
  /usr/include/c++/5/bits/sstream.tcc \
- /home/leeweihan/Desktop/sharp-pq/Sharp-PQ/depends/libff/libff/../libff/common/utils.tcc
+ /home/leeweihan/Desktop/Sharp-PQ/depends/libff/libff/../libff/common/utils.tcc
